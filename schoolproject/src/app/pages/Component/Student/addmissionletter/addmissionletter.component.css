@@ -1,0 +1,200 @@
+.profile-card-3 {
+   font-family: "Open Sans", Arial, sans-serif;
+   position: relative;
+   width: 350px;
+   text-align: center;
+   height: min-content;
+   border: none;
+   border-radius: 10px;
+   overflow: hidden;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   margin-top: 70px;
+}
+
+ 
+ 
+
+.profile-card-3 .card-header {
+   background-color: #4CAF50;
+   color: white;
+   padding: 10px 0;
+}
+
+.profile-card-3 .profile-thumb-block {
+   position: relative;
+   margin-top: -50px;
+}
+
+.profile-card-3 .profile {
+   border-radius: 50%;
+   position: relative;
+   max-width: 100px;
+   margin-bottom: 10px;
+   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+   border: 2px solid #fff;
+   z-index: 1;
+}
+
+.profile-card-3 .card-content {
+   width: 100%;
+   padding: 15px 25px;
+   color: #232323;
+   background: #efefef;
+   border-radius: 0 0 10px 10px;
+}
+
+.profile-card-3 .details {
+   text-align: left;
+   margin-bottom: 15px;
+}
+
+.profile-card-3 .details p {
+   margin: 5px 0;
+   font-size: 14px;
+}
+
+.profile-card-3 .details strong {
+   font-weight: 600;
+}
+
+.profile-card-3 .icon-block {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   margin-top: 10px;
+}
+
+
+ 
+ 
+ .profile-card-3 .icon-block i {
+   
+ color: rgb(255, 255, 255);
+ border: #fff;
+ margin-right: 20px;
+ }
+ 
+ 
+ .profile-card-3 .icon-block .btn {
+   display: flex;
+   background-color: deeppink;
+ border-radius: 20px;
+ height: 35px;
+ width: 200px;
+ text-align: center;
+ align-items: center;
+ font-size: 12px;
+ font-weight: 600;
+   }
+
+   .profile-card-3 .icon-block button:hover {
+      color: #fff;
+      }
+
+      input[type="text"] {
+         box-sizing: border-box;
+         width: 100%;
+         height: calc(3em + 2px);
+         margin: 0 0 1em;
+         padding: 1em;
+         border: 1px solid #ccc;
+         border-radius: 1.5em;
+         background: #fff;
+         resize: none;
+         outline: none;
+       }
+       input[type="text"][required]:focus {
+         border-color: #fe7038;
+         font-weight:500 ;
+     
+       }
+       input[type="text"][required]:focus + label[placeholder]:before {
+         color: #fd5d00;
+         font-weight:500 ;
+       }
+       input[type="text"][required]:focus + label[placeholder]:before,
+       input[type="text"][required]:valid + label[placeholder]:before {
+         transition-duration: 0.2s;
+         transform: translate(0, -1.5em) scale(0.9, 0.9);
+         /* color: #ff0000;
+         font-weight:500 ; */
+       }
+       input[type="text"][required]:invalid + label[placeholder][alt]:before {
+         content: attr(alt);
+       }
+       input[type="text"][required] + label[placeholder] {
+         display: block;
+         pointer-events: none;
+         line-height: 1.25em;
+         margin-top: calc(-3em - 2px);
+         margin-bottom: calc((3em - 1em) + 2px);
+         font-weight:400 ;
+       }
+       input[type="text"][required] + label[placeholder]:before {
+         content: attr(placeholder);
+         display: inline-block;
+         margin: 0 calc(1em + 2px);
+         padding: 0 2px;
+         color: #a5b5be; 
+         white-space: nowrap;
+         transition: 0.3s ease-in-out;
+         background-image: linear-gradient(to bottom, #fff, #fff);
+         background-size: 100% 5px;
+         background-repeat: no-repeat;
+         background-position: center;
+         font-weight: 500;
+       }
+     
+
+       .suggestions-list {
+         position: absolute;  
+         z-index: 1000; /* Ensures it is above other elements */
+         width: 200px;
+         margin-top: 50px;
+         margin-right: 48px; 
+         text-align: center;
+         border-radius: 20px;
+         cursor: pointer;
+       }
+       
+      
+       .details {
+         display: flex;
+         flex-direction: column;
+         gap: 10px; /* Space between rows */
+       }
+       
+       .detail-item {
+         display: flex;
+         justify-content: flex-start; /* Align items to the left */
+         align-items: center; /* Center content vertically */
+       }
+       
+       .label {
+         font-weight: normal; /* Labels in normal weight */
+         color: rgb(0, 0, 0); /* Color for labels */
+         width: 150px; /* Fixed width for labels */
+         text-align: left; /* Ensure labels align to the left */
+       }
+       
+       .data {
+         font-weight: bold; /* Make the data bold */
+         color: rgb(51, 51, 51); /* Color for data text */
+       }
+       
+       .account-status {
+         color: blue;
+         font-weight: 600;
+       }
+       
+       .account-status .data {
+         color: rgb(0, 0, 0); /* Account Status data color */
+       }
+       
+       /* Optional: Style for icons */
+       .detail-item i {
+         margin-left: 5px;
+         color: green;
+       }
+       
+ 

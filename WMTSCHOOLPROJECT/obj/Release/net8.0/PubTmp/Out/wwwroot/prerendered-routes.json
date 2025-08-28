@@ -1,0 +1,24 @@
+{
+  "routes": [
+    "/",
+    "/Addmissionletter",
+    "/Addnew",
+    "/Allclass",
+    "/Allstudent",
+    "/AssignSubjects",
+    "/Classeswithsubjects",
+    "/create",
+    "/Dashboard",
+    "/DrawingBoard",
+    "/game",
+    "/login",
+    "/loginprofile",
+    "/Managelogin",
+    "/newclass",
+    "/Printbasiclist",
+    "/profilesetting",
+    "/Promotestudent",
+    "/Quiz",
+    "/StudentIDcards"
+  ]
+}

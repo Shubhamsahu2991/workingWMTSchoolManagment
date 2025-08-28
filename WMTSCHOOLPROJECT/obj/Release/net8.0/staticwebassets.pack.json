@@ -1,0 +1,185 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\3rdpartylicenses.txt",
+      "PackagePath": "staticwebassets\\3rdpartylicenses.txt"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Addmissionletter\\index.html",
+      "PackagePath": "staticwebassets\\browser\\Addmissionletter\\index.html"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Addnew\\index.html",
+      "PackagePath": "staticwebassets\\browser\\Addnew\\index.html"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Allclass\\index.html",
+      "PackagePath": "staticwebassets\\browser\\Allclass\\index.html"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Allstudent\\index.html",
+      "PackagePath": "staticwebassets\\browser\\Allstudent\\index.html"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\AssignSubjects\\index.html",
+      "PackagePath": "staticwebassets\\browser\\AssignSubjects\\index.html"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Classeswithsubjects\\index.html",
+      "PackagePath": "staticwebassets\\browser\\Classeswithsubjects\\index.html"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Dashboard\\index.html",
+      "PackagePath": "staticwebassets\\browser\\Dashboard\\index.html"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\DrawingBoard\\index.html",
+      "PackagePath": "staticwebassets\\browser\\DrawingBoard\\index.html"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Managelogin\\index.html",
+      "PackagePath": "staticwebassets\\browser\\Managelogin\\index.html"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Printbasiclist\\index.html",
+      "PackagePath": "staticwebassets\\browser\\Printbasiclist\\index.html"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Promotestudent\\index.html",
+      "PackagePath": "staticwebassets\\browser\\Promotestudent\\index.html"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Quiz\\index.html",
+      "PackagePath": "staticwebassets\\browser\\Quiz\\index.html"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\StudentIDcards\\index.html",
+      "PackagePath": "staticwebassets\\browser\\StudentIDcards\\index.html"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\create\\index.html",
+      "PackagePath": "staticwebassets\\browser\\create\\index.html"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\favicon.ico",
+      "PackagePath": "staticwebassets\\browser\\favicon.ico"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\game\\index.html",
+      "PackagePath": "staticwebassets\\browser\\game\\index.html"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\index.csr.html",
+      "PackagePath": "staticwebassets\\browser\\index.csr.html"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\index.html",
+      "PackagePath": "staticwebassets\\browser\\index.html"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\login\\index.html",
+      "PackagePath": "staticwebassets\\browser\\login\\index.html"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\loginprofile\\index.html",
+      "PackagePath": "staticwebassets\\browser\\loginprofile\\index.html"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\main-EUU5TFDF.js",
+      "PackagePath": "staticwebassets\\browser\\main-EUU5TFDF.js"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\media\\Schoolimg-ZFWY2ZSF.png",
+      "PackagePath": "staticwebassets\\browser\\media\\Schoolimg-ZFWY2ZSF.png"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\media\\bootstrap-icons-OCU552PF.woff",
+      "PackagePath": "staticwebassets\\browser\\media\\bootstrap-icons-OCU552PF.woff"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\media\\bootstrap-icons-X6UQXWUS.woff2",
+      "PackagePath": "staticwebassets\\browser\\media\\bootstrap-icons-X6UQXWUS.woff2"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\newclass\\index.html",
+      "PackagePath": "staticwebassets\\browser\\newclass\\index.html"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\polyfills-FFHMD2TL.js",
+      "PackagePath": "staticwebassets\\browser\\polyfills-FFHMD2TL.js"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\profilesetting\\index.html",
+      "PackagePath": "staticwebassets\\browser\\profilesetting\\index.html"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\scripts-GKTV6UCE.js",
+      "PackagePath": "staticwebassets\\browser\\scripts-GKTV6UCE.js"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\styles-72AO6R5O.css",
+      "PackagePath": "staticwebassets\\browser\\styles-72AO6R5O.css"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\prerendered-routes.json",
+      "PackagePath": "staticwebassets\\prerendered-routes.json"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\chunk-5XUXGTUW.mjs",
+      "PackagePath": "staticwebassets\\server\\chunk-5XUXGTUW.mjs"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\chunk-HYEPMERM.mjs",
+      "PackagePath": "staticwebassets\\server\\chunk-HYEPMERM.mjs"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\chunk-K5SDVLCX.mjs",
+      "PackagePath": "staticwebassets\\server\\chunk-K5SDVLCX.mjs"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\chunk-VCVCHJZV.mjs",
+      "PackagePath": "staticwebassets\\server\\chunk-VCVCHJZV.mjs"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\index.server.html",
+      "PackagePath": "staticwebassets\\server\\index.server.html"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\main.server.mjs",
+      "PackagePath": "staticwebassets\\server\\main.server.mjs"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\polyfills.server.mjs",
+      "PackagePath": "staticwebassets\\server\\polyfills.server.mjs"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\render-utils.server.mjs",
+      "PackagePath": "staticwebassets\\server\\render-utils.server.mjs"
+    },
+    {
+      "Id": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\server.mjs",
+      "PackagePath": "staticwebassets\\server\\server.mjs"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.WMTSCHOOLPROJECT.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.WMTSCHOOLPROJECT.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.WMTSCHOOLPROJECT.props",
+      "PackagePath": "build\\WMTSCHOOLPROJECT.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WMTSCHOOLPROJECT.props",
+      "PackagePath": "buildMultiTargeting\\WMTSCHOOLPROJECT.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.WMTSCHOOLPROJECT.props",
+      "PackagePath": "buildTransitive\\WMTSCHOOLPROJECT.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

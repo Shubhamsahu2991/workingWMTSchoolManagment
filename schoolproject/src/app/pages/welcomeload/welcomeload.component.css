@@ -1,0 +1,39 @@
+/* Ensure the container spans the full viewport */
+.container {
+    position: fixed;  /* Fixed position for overlay */
+    max-width: 100%;
+    width: 100%;      /* Full width of the viewport */
+    height: 100vh;     /* Full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255); /* Optional: translucent background */
+    z-index: 9999;     /* Ensure it sits above other content */
+}
+
+/* Styling for the spinner (loading element) */
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;  /* Ensure no background */
+    height: 100%;             /* Fill the entire height of container */
+    width: 100%;              /* Fill the entire width of container */
+}
+
+/* Apply animation to letters */
+.wmt-loader .wmt-letter {
+    animation: strokeAnim 3s linear infinite;
+}
+
+/* Stroke animation */
+@keyframes strokeAnim {
+    0%, 100% {
+        stroke-dasharray: 0 150;
+        stroke-dashoffset: -75;
+    }
+    50% {
+        stroke-dasharray: 150 150;
+        stroke-dashoffset: 0;
+    }
+}

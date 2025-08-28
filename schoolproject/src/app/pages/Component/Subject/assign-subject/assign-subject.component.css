@@ -1,0 +1,227 @@
+
+.container {
+    display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center;     /* Vertical center */
+           /* Take up full viewport height */
+  }
+    .card {
+    width: 100%;
+    max-width: 38rem;        /* Max width for the card */
+  }
+
+  .form-row {
+    display: flex;
+    justify-content: center;  /* Center the button horizontally */
+  }
+  .subjectinput {
+    display: flex;  /* Align the inputs in a row */
+    gap: 10px;      /* Optional: Adds spacing between inputs */
+    position: relative;
+  }
+
+  .addremove {
+    display: flex;  /* Align the inputs in a row */
+    gap: 10px;      /* Optional: Adds spacing between inputs */
+    position: relative;
+    justify-content: center;
+  }
+
+
+
+  
+.btn-grad {background-image: linear-gradient(to right, #000428 0%, #004e92  51%, #000428  100%)}
+.btn-grad {
+    
+   padding: 10px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #787676;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+
+
+ 
+.btn-sm {background-image: linear-gradient(to right, #000428 0%, #004e92  51%, #000428  100%)}
+.btn-sm {
+    width: 90px;
+    height: 22px;
+   
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #787676;
+   border-radius: 10px;
+   display: block;
+   font-size: 8px;
+   font-weight: 600;
+ }
+
+ .btn-sm:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+ 
+
+  
+
+ 
+input[type="text"] {
+ box-sizing: border-box;
+ width: 100%;
+ height: calc(3em + 2px);
+ margin: 0 0 1em;
+ padding: 1em;
+ border: 1px solid #ccc;
+ border-radius: 1.5em;
+ background: #fff;
+ resize: none;
+ outline: none;
+}
+input[type="text"][required]:focus {
+ border-color: #00bafa;
+ 
+}
+input[type="text"][required]:focus + label[placeholder]:before {
+ color: #00bafa;
+}
+input[type="text"][required]:focus + label[placeholder]:before,
+input[type="text"][required]:valid + label[placeholder]:before {
+ transition-duration: 0.2s;
+ transform: translate(0, -1.5em) scale(0.9, 0.9);
+}
+input[type="text"][required]:invalid + label[placeholder][alt]:before {
+ content: attr(alt);
+}
+input[type="text"][required] + label[placeholder] {
+ display: block;
+ pointer-events: none;
+ line-height: 1.25em;
+ margin-top: calc(-3em - 2px);
+ margin-bottom: calc((3em - 1em) + 2px);
+}
+input[type="text"][required] + label[placeholder]:before {
+ content: attr(placeholder);
+ display: inline-block;
+ margin: 0 calc(1em + 2px);
+ padding: 0 2px;
+ color: #898989;
+ white-space: nowrap;
+ transition: 0.3s ease-in-out;
+ background-image: linear-gradient(to bottom, #fff, #fff);
+ background-size: 100% 5px;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+
+/* Styling for the select input */
+/* Styling for the select input */
+select {
+ box-sizing: border-box;
+ width: 100%;
+ height: calc(7vh); /* Ensure height accommodates the label and value */
+ margin: 0 0 1em;
+ text-align: center;
+ border: 1px solid #ccc;
+ border-radius: 1.5em;
+ background: #fff;
+ appearance: none; /* Remove default dropdown appearance */
+ outline: none;
+ font-size: 1em;
+ padding-right: 2em; /* Make space for the arrow */
+}
+
+/* Styling for the select label (floating effect) */
+select + label[placeholder] {
+ display: block;
+ pointer-events: none;
+ line-height: 1.25em;
+ margin-top: calc(-3em - 2px);
+ margin-bottom: calc((3em - 1em) + 2px);
+ position: relative;
+ transition: 0.3s ease;
+}
+
+/* Floating label effect */
+select + label[placeholder]:before {
+ content: attr(placeholder);
+ display: inline-block;
+ margin: 0 calc(1em + 2px);
+ padding: 0 2px;
+ color: #898989;
+ white-space: nowrap;
+ transition: 0.3s ease-in-out;
+ background-image: linear-gradient(to bottom, #fff, #fff);
+ background-size: 100% 5px;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+
+/* When the select is focused or has a value, make the label float */
+select:focus + label[placeholder]:before,
+select:valid + label[placeholder]:before {
+ transform: translate(0, -1.5em) scale(0.9, 0.9);
+ color: #00bafa;
+ transition-duration: 0.2s;
+}
+
+/* Optional: Add a border color when the select is focused */
+select:focus {
+ border-color: #00bafa;
+}
+
+/* Optional: Show error message if invalid */
+select:invalid + label[placeholder][alt]:before {
+ content: attr(alt);
+ color: #00bafa;
+}
+
+/* Add custom arrow and padding fix */
+select::-ms-expand {
+ display: none; /* Remove default dropdown arrow in IE */
+}
+
+select + label[placeholder]::after {
+ content: ' ▼'; /* Custom down arrow */
+ position: absolute;
+ top: 50%;
+ right: 1em;
+ transform: translateY(-50%);
+ font-size: 1.2em;
+ color: #a1a1a1;
+}
+
+/* Style the options inside the select */
+select option {
+ background-color: #f0f0f0; /* Background color */
+ color: #333; /* Text color */
+ padding: 10px; /* Padding for the options */
+ font-size: 1em; /* Font size */
+}
+
+/* Style the selected option */
+select option:checked {
+ background-color: #00bafa; /* Change background color when selected */
+ color: white; /* Change text color when selected */
+}
+
+/* Optional: Style the disabled option */
+select option:disabled {
+ background-color: #ccc; /* Light gray for disabled options */
+ color: #888; /* Text color for disabled options */
+}

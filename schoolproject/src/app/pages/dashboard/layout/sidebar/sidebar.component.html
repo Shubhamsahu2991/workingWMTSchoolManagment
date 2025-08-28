@@ -1,0 +1,330 @@
+<!-- <ul *ngIf="isSidebarOpen" >
+    <li><a routerLink="/Dashboard" routerLinkActive="active-link"> <i class="fa fa-fw fa-home"></i> Dashboard</a></li>
+    <li><a routerLink="/Product" routerLinkActive="active-link"><i class="fa fa-fw fa-newspaper"></i>Classes</a></li>
+    <li><a routerLink="/ProductList" routerLinkActive="active-link"> <i class="fa fa-fw fa-book"></i>Subjects</a></li>
+    <li><a href="#about" routerLinkActive="active-link"> <i class="fa fa-fw fa-info-circle"></i> GoldMedal</a></li>
+    <li><a href="#news" routerLinkActive="active-link"><i class="fa fa-fw fa-newspaper"></i> Anchor</a></li>
+    <li><a href="#contact" routerLinkActive="active-link"> <i class="fa fa-fw fa-envelope"></i> local</a></li>
+    <li><a href="#about" routerLinkActive="active-link"> <i class="fa fa-fw fa-info-circle"></i> Add Company</a></li>
+    <li><a href="#news" routerLinkActive="active-link"><i class="fa fa-fw fa-newspaper"></i> Add Product</a></li>
+    <li><a href="#contact" routerLinkActive="active-link"> <i class="fa fa-fw fa-envelope"></i> Add Category</a></li>
+    <li><a href="#about" routerLinkActive="active-link"> <i class="fa fa-fw fa-info-circle"></i> Add Company</a></li>
+    <li><a href="#news" routerLinkActive="active-link"><i class="fa fa-fw fa-newspaper"></i> Add Product</a></li>
+    <li><a href="#contact" routerLinkActive="active-link"> <i class="fa fa-fw fa-envelope"></i> Add Category</a></li>
+    <li><a href="#about" routerLinkActive="active-link"> <i class="fa fa-fw fa-info-circle"></i> Add Company</a></li>
+  </ul>
+
+ -->
+
+<!-- 
+
+  <div *ngIf="isSidebarOpen" class="flex-shrink-0 p-3 bg-white" style="width: 280px;">
+    <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+      <svg class="bi me-2" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      <span class="fs-5 fw-semibold">Collapsible</span>
+    </a>
+    <ul class="list-unstyled ps-0">
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
+          Home
+        </button>
+        <div class="collapse" id="home-collapse" style="">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="#" class="link-dark rounded">Overview</a></li>
+            <li><a href="#" class="link-dark rounded">Updates</a></li>
+            <li><a href="#" class="link-dark rounded">Reports</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+          Dashboard
+        </button>
+        <div class="collapse" id="dashboard-collapse" style="">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="#" class="link-dark rounded">Overview</a></li>
+            <li><a href="#" class="link-dark rounded">Weekly</a></li>
+            <li><a href="#" class="link-dark rounded">Monthly</a></li>
+            <li><a href="#" class="link-dark rounded">Annually</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+          Orders
+        </button>
+        <div class="collapse" id="orders-collapse" style="">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="#" class="link-dark rounded">New</a></li>
+            <li><a href="#" class="link-dark rounded">Processed</a></li>
+            <li><a href="#" class="link-dark rounded">Shipped</a></li>
+            <li><a href="#" class="link-dark rounded">Returned</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="border-top my-3"></li>
+      <li class="mb-1">
+        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+          Account
+        </button>
+        <div class="collapse" id="account-collapse" style="">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="#" class="link-dark rounded">New...</a></li>
+            <li><a href="#" class="link-dark rounded">Profile</a></li>
+            <li><a href="#" class="link-dark rounded">Settings</a></li>
+            <li><a href="#" class="link-dark rounded">Sign out</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div> -->
+
+
+<!-- 
+<div *ngIf="isSidebarOpen" class="container-fluid ">
+  <div class="row flex-nowrap ">
+
+    <div style="width: 220px; "
+      class="d-flex flex-column bg-white align-items-center  align-items-sm-start px-3 pt-2  text-white min-vh-100">
+       
+      <ul
+        class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center  text-decoration-none align-items-sm-start"
+        id="menu">
+        <li class="nav-item">
+          <a routerLink="/Dashboard" routerLinkActive="active-link" class="nav-link align-middle px-0 text-black">
+            <i class="fs-4 bi-speedometer2"></i> <span class="ms-3 d-none d-sm-inline">Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0)" class="nav-link px-0 align-middle text-black text-decoration-none" (click)="toggleMenu('submenuclass')">
+            <i class="bi-person-vcard fs-4"></i> <span class="ms-3 d-none d-sm-inline">Class</span>
+          </a>
+          <ul [ngClass]="{'submenu': true, 'open': isClassOpen}" class="nav flex-column ms-1">
+            <li class="w-100">
+              <a routerLink="/Allclass" routerLinkActive="active-link" class="nav-link px-0">
+                <i class="bi bi-arrow-right-square-fill fs-5"></i> 
+                <span class="d-none d-sm-inline ms-3">All class</span>
+              </a>
+            </li>
+            <li>
+              <a routerLink="/newclass" routerLinkActive="active-link" class="nav-link px-0">
+                <i class="bi bi-arrow-right-square-fill fs-5"></i> 
+                <span class="d-none d-sm-inline ms-3">New class</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        
+        <li>
+          <a href="#submenuSubject" data-bs-toggle="collapse"
+            class="nav-link px-0 align-middle  text-black text-decoration-none">
+            <i class="bi bi-journal-bookmark-fill fs-4"></i> <span class="ms-3 d-none d-sm-inline">Subjects</span> </a>
+          <ul class="collapse nav flex-column ms-1" style="float: right;" id="submenuSubject" data-bs-parent="#menu">
+            <li class="w-100">
+              <a routerLink="/Classeswithsubjects" routerLinkActive="active-link" class="nav-link px-0  "> <i class="bi bi-arrow-right-square fs-5 "></i> <span
+                  class="d-none d-sm-inline ms-3">Classes with Subjects</span> </a>
+            </li>
+            <li>
+              <a routerLink="/AssignSubjects" routerLinkActive="active-link" class="nav-link px-0  "><i class="bi bi-arrow-right-square fs-5 "></i> <span
+                  class="d-none d-sm-inline ms-3">Assign Subjects</span> </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#submenuStudent" data-bs-toggle="collapse"
+            class="nav-link px-0 align-middle  text-black text-decoration-none">
+            <i class="bi-person-vcard fs-3"></i> <span class="ms-3 d-none d-sm-inline">Student</span> </a>
+          <ul class="collapse nav flex-column ms-1" style="float: right;" id="submenuStudent" data-bs-parent="#menu">
+            <li class="w-100">
+              <a routerLink="/Allstudent" routerLinkActive="active-link" class="nav-link px-0  "><i class="bi bi-arrow-right-square fs-5 "></i> <span
+                  class="d-none d-sm-inline ms-3">All Student</span> </a>
+            </li>
+            <li>
+              <a routerLink="/Addnew" routerLinkActive="active-link" class="nav-link px-0  "><i class="bi bi-arrow-right-square fs-5 "></i> <span
+                  class="d-none d-sm-inline ms-3">Add New</span> </a>
+            </li>
+            <li>
+              <a routerLink="/Addmissionletter" routerLinkActive="active-link" class="nav-link px-0  "> <i class="bi bi-arrow-right-square fs-5 "></i><span
+                  class="d-none d-sm-inline ms-3">Admission Letter</span> </a>
+            </li>
+            <li>
+              <a routerLink="/StudentIDcards" routerLinkActive="active-link" class="nav-link px-0  "><i class="bi bi-arrow-right-square fs-5 "></i> <span
+                  class="d-none d-sm-inline ms-3">Student ID Cards</span> </a>
+            </li>
+            <li>
+              <a routerLink="/Printbasiclist" routerLinkActive="active-link" class="nav-link px-0    "><i class="bi bi-arrow-right-square fs-5 "></i> <span
+                  class="d-none d-sm-inline ms-3">Print Basic List</span> </a>
+            </li>
+            <li>
+              <a routerLink="/Managelogin" routerLinkActive="active-link" class="nav-link px-0  "> <i class="bi bi-arrow-right-square fs-5 "></i><span
+                  class="d-none d-sm-inline ms-3">Manage Login</span> </a>
+            </li>
+            <li>
+              <a routerLink="/Promotestudent" routerLinkActive="active-link" class="nav-link px-0  "><i class="bi bi-arrow-right-square fs-5 "></i> <span
+                  class="d-none d-sm-inline ms-3">Promote Students</span> </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#submenu3" data-bs-toggle="collapse"
+            class="nav-link px-0 align-middle  text-black text-decoration-none">
+            <i class="fs-4 bi-grid"></i> <span class="ms-3 d-none d-sm-inline">Employees</span> </a>
+          <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+            <li class="w-100">
+              <a href="#" class="nav-link px-0"><i class="bi bi-arrow-right-square fs-5 "></i> <span
+                  class="d-none d-sm-inline ms-3">All Employees</span> </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link px-0"><i class="bi bi-arrow-right-square fs-5 "></i> <span
+                  class="d-none d-sm-inline ms-3">Add New</span> </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link px-0"><i class="bi bi-arrow-right-square fs-5 "></i> <span
+                  class="d-none d-sm-inline ms-3">Staff ID Cards</span> </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link px-0"><i class="bi bi-arrow-right-square fs-5 "></i> <span
+                  class="d-none d-sm-inline ms-3">Job Letter</span> </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link px-0"><i class="bi bi-arrow-right-square fs-5 "></i> <span
+                  class="d-none d-sm-inline ms-3">Manage Login</span> </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="nav-link px-0 align-middle">
+            <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Customers</span> </a>
+        </li>
+      </ul>
+      <hr>
+
+    </div>
+  </div>
+  
+</div> -->
+
+
+<div *ngIf="isSidebarOpen" class="container-fluid">
+  <div class="row flex-nowrap">
+    <div style="width: 220px;"
+      class="d-flex flex-column bg-white align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+
+      <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center text-decoration-none align-items-sm-start"
+        id="menu">
+        <!-- Dashboard Item -->
+        <li class="nav-item">
+          <a routerLink="/Dashboard" routerLinkActive="active-link" class="nav-link align-middle px-0 text-black">
+            <i class="fs-4 bi-speedometer2"></i> <span class="ms-3 d-none d-sm-inline">Dashboard</span>
+          </a>
+        </li>
+
+        <!-- Class Menu -->
+        <li>
+          <a href="javascript:void(0)" class="nav-link px-0 align-middle text-black text-decoration-none"
+            (click)="toggleMenu('submenuclass')">
+            <i class="bi-person-vcard fs-4"></i> <span class="ms-3 d-none d-sm-inline">Class</span>
+          </a>
+          <ul [ngClass]="{'submenu': true, 'open': openSubmenu === 'submenuclass'}" class="nav flex-column ms-1">
+            <li class="w-100">
+              <a routerLink="/Allclass" routerLinkActive="active-link" class="nav-link px-0">
+                <i class="bi bi-arrow-right-square-fill fs-5"></i>
+                <span class="d-none d-sm-inline ms-3">All class</span>
+              </a>
+            </li>
+            <li>
+              <a routerLink="/newclass" routerLinkActive="active-link" class="nav-link px-0">
+                <i class="bi bi-arrow-right-square-fill fs-5"></i>
+                <span class="d-none d-sm-inline ms-3">New class</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <!-- Subjects Menu -->
+        <li>
+          <a href="javascript:void(0)" class="nav-link px-0 align-middle text-black text-decoration-none"
+            (click)="toggleMenu('submenuSubject')">
+            <i class="bi bi-journal-bookmark-fill fs-4"></i> <span class="ms-3 d-none d-sm-inline">Subjects</span>
+          </a>
+          <ul [ngClass]="{'submenu': true, 'open': openSubmenu === 'submenuSubject'}" class="nav flex-column ms-1">
+            <li class="w-100">
+              <a routerLink="/Classeswithsubjects" routerLinkActive="active-link" class="nav-link px-0">
+                <i class="bi bi-arrow-right-square-fill fs-5"></i>
+                <span class="d-none d-sm-inline ms-3">Classes with Subjects</span>
+              </a>
+            </li>
+            <li>
+              <a routerLink="/AssignSubjects" routerLinkActive="active-link" class="nav-link px-0">
+                <i class="bi bi-arrow-right-square-fill fs-5"></i>
+                <span class="d-none d-sm-inline ms-3">Assign Subjects</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <!-- Student Menu -->
+        <li>
+          <a href="javascript:void(0)" class="nav-link px-0 align-middle text-black text-decoration-none"
+            (click)="toggleMenu('submenuStudent')">
+            <i class="bi-person-vcard fs-3"></i> <span class="ms-3 d-none d-sm-inline">Student</span>
+          </a>
+          <ul [ngClass]="{'submenu': true, 'open': openSubmenu === 'submenuStudent'}" class="nav flex-column ms-1">
+            <li class="w-100">
+              <a routerLink="/Allstudent" routerLinkActive="active-link" class="nav-link px-0">
+                <i class="bi bi-arrow-right-square fs-5"></i>
+                <span class="d-none d-sm-inline ms-3">All Student</span>
+              </a>
+            </li>
+            <li>
+              <a routerLink="/Addnew" routerLinkActive="active-link" class="nav-link px-0  ">
+                <i class="bi bi-arrow-right-square fs-5 "></i> <span class="d-none d-sm-inline ms-3">Add New</span> </a>
+            </li>
+            <li>
+              <a routerLink="/Addmissionletter" routerLinkActive="active-link" class="nav-link px-0  ">
+                 <i class="bi bi-arrow-right-square fs-5 "></i><span class="d-none d-sm-inline ms-3">Admission Letter</span> </a>
+            </li>
+            <li>
+              <a routerLink="/StudentIDcards" routerLinkActive="active-link" class="nav-link px-0  "><i
+                  class="bi bi-arrow-right-square fs-5 "></i> <span class="d-none d-sm-inline ms-3">Student ID
+                  Cards</span> </a>
+            </li>
+            <li>
+              <a routerLink="/Printbasiclist" routerLinkActive="active-link" class="nav-link px-0    "><i
+                  class="bi bi-arrow-right-square fs-5 "></i> <span class="d-none d-sm-inline ms-3">Print Basic
+                  List</span> </a>
+            </li>
+            <li>
+              <a routerLink="/Managelogin" routerLinkActive="active-link" class="nav-link px-0  "> <i
+                  class="bi bi-arrow-right-square fs-5 "></i><span class="d-none d-sm-inline ms-3">Manage Login</span>
+              </a>
+            </li>
+            <li>
+              <a routerLink="/Promotestudent" routerLinkActive="active-link" class="nav-link px-0  "><i
+                  class="bi bi-arrow-right-square fs-5 "></i> <span class="d-none d-sm-inline ms-3">Promote
+                  Students</span> </a>
+            </li>
+            <!-- Additional student links go here -->
+          </ul>
+        </li>
+
+        <!-- Employees Menu -->
+        <li>
+          <a href="javascript:void(0)" class="nav-link px-0 align-middle text-black text-decoration-none"
+            (click)="toggleMenu('submenu3')">
+            <i class="fs-4 bi-grid"></i> <span class="ms-3 d-none d-sm-inline">Employees</span>
+          </a>
+          <ul [ngClass]="{'submenu': true, 'open': openSubmenu === 'submenu3'}" class="nav flex-column ms-1">
+            <li class="w-100">
+              <a href="#" class="nav-link px-0">
+                <i class="bi bi-arrow-right-square fs-5"></i> <span class="d-none d-sm-inline ms-3">All Employees</span>
+              </a>
+            </li>
+            <!-- Additional employee links go here -->
+          </ul>
+        </li>
+      </ul>
+      <hr>
+    </div>
+  </div>
+</div>

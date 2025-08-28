@@ -1,0 +1,231 @@
+<div class="Container ">
+    <div class="row text-center"><h2 class="head">Admission Form</h2></div>
+<form class="row g-2"  [formGroup]="studentForm" (ngSubmit)="updateStudent()" >
+    <div class="mb-4"  style="border-bottom: 1px solid rgb(116, 114, 114);  " >
+        <i class="bi bi-1-circle-fill fs-4"></i>
+         Student Information
+        </div>
+    <div class="col-md-4 text-center">
+        <input required='' formControlName="Name"  type='text'>
+        <label alt='Student Name' placeholder='Student Name'></label>
+    </div>
+
+    <div class="col-md-4 text-center">
+        <input required='' formControlName="Rno"  type='text'>
+        <label alt='Registration No.' placeholder='Registration No.'></label>
+      </div>
+
+      <div class="col-md-4 text-center">
+        <select formControlName="classname" required>
+            <option value="0" disabled selected>Select Class</option>
+            <option  *ngFor="let class of classes" [value]="class.ClassID">{{ class.Classname }}</option>
+          </select>
+          <label alt="Please select a Class" placeholder=" Class"></label>
+      </div>
+
+      <div class="col-md-4 text-center">
+        <input required='' formControlName="PicturePIC"  type='text'>
+        <label alt='Picture - Optional' placeholder='Picture - Optional'></label>
+      </div>
+
+      <div class="col-md-4 text-center">
+        <input required='' formControlName="DateofAdmission"  type='date'>
+        <label alt='Date of Admission' placeholder='Date of Admission'></label>
+    </div>
+
+    
+
+    <div class="col-md-4 text-center">
+        <input required='' formControlName="DiscountInFee"  type='text'>
+        <label alt='Discount In Fee' placeholder='Discount In Fee'></label>
+    </div>
+
+
+    <div class="col-md-4 text-center">
+         
+      </div>
+
+      <div class="col-md-4 text-center">
+         
+    </div>
+
+    
+
+    <div class="col-md-4 text-center">
+        <input required='' formControlName="MobileNo"  type='text'>
+        <label alt='MobileNo' placeholder='MobileNo'></label>
+    </div>
+
+
+
+      <div class="mb-4"   style="border-bottom: 1px solid rgb(116, 114, 114);  " >
+        <i class="bi bi-1-circle-fill fs-4"></i>
+        Other Information
+        </div>
+    <div class="col-md-4 text-center">
+        <input required='' formControlName="DateOfBirth"  type='date'>
+        <label alt='Date Of Birth' placeholder='Date Of Birth'></label>
+    </div>
+
+    <div class="col-md-4 text-center">
+        <input required='' formControlName="AdhaarID"  type='text'>
+        <label alt='Adhaar Card' placeholder='Adhaar Card'></label>
+      </div>
+
+      <div class="col-md-4 text-center">
+        
+
+        <select formControlName="Domicile" required>
+            <option value="Y">YES</option>
+            <option value="N">NO</option>
+          </select>
+          <label alt="Domicile" placeholder="Domicile"></label>
+      </div>
+
+
+
+
+      <div class="col-md-4 text-center">
+        <select formControlName="Gender" required>
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+          </select>
+          <label alt="Gender" placeholder="Gender"></label>
+    </div>
+
+    <div class="col-md-4 text-center">
+        <select formControlName="Cast" required>
+            <option value="G">GENERAL</option>
+            <option value="OBC">OBC</option>
+            <option value="ST">S T</option>
+            <option value="SC">S C</option>
+          </select>
+          <label alt="Cast" placeholder="Cast"></label>
+      </div>
+
+      <div class="col-md-4 text-center">
+        
+
+        <select formControlName="city" required>
+            <option value="Y">YES</option>
+            <option value="N">NO</option>
+          </select>
+          <label alt="OrphanStudent" placeholder="OrphanStudent"></label>
+      </div>
+
+      
+      <div class="mb-4"  style="border-bottom: 1px solid rgb(116, 114, 114);  " >
+        <i class="bi bi-1-circle-fill fs-4"></i>
+        Father/Guardien Information
+        </div>
+    <div class="col-md-4 text-center">
+        <input required='' formControlName="FatherName"  type='text'>
+        <label alt='Father Name' placeholder='Father Name'></label>
+    </div>
+
+    <div class="col-md-4 text-center">
+        <input required='' formControlName="FatherNationalID"  type='text'>
+        <label alt='Father National ID' placeholder='Father National ID'></label>
+      </div>
+
+      <div class="col-md-4 text-center">
+        <input required='' formControlName="FOccupation"  type='text'>
+        <label alt='Occupation' placeholder='Occupation'></label>
+      </div>
+
+
+
+      <div class="col-md-4 text-center">
+        <input required='' formControlName="FatherEducation"  type='text'>
+        <label alt='Education' placeholder='Education'></label>
+    </div>
+
+    <div class="col-md-4 text-center">
+        <input required='' formControlName="FatherMobileNo"  type='text'>
+        <label alt='Mobile No' placeholder='Mobile No'></label>
+      </div>
+
+      <div class="col-md-4 text-center">
+        <input required='' formControlName="FatherProfession"  type='text'>
+        <label alt='Profession' placeholder='Profession'></label>
+      </div>
+
+
+      <div class="col-md-4 text-center">
+         
+      </div>
+
+      <div class="col-md-4 text-center">
+         
+    </div>
+
+    
+
+    <div class="col-md-4 text-center">
+        <input required='' formControlName="FIncome"  type='text'>
+        <label alt='Income' placeholder='Income'></label>
+    </div>
+
+
+
+
+
+      <div class="mb-4"   style="border-bottom: 1px solid rgb(116, 114, 114);  " >
+        <i class="bi bi-1-circle-fill fs-4"></i>
+        Mother Information
+        </div>
+        <div class="col-md-4 text-center">
+            <input required='' formControlName="MotherName"  type='text'>
+            <label alt='Mother Name' placeholder='Mother Name'></label>
+        </div>
+    
+        <div class="col-md-4 text-center">
+            <input required='' formControlName="MotherNationalID"  type='text'>
+            <label alt='Mother National ID' placeholder='Mother National ID'></label>
+          </div>
+    
+          <div class="col-md-4 text-center">
+            <input required='' formControlName="MOccupation"  type='text'>
+            <label alt='Occupation' placeholder='Occupation'></label>
+          </div>
+    
+    
+    
+          <div class="col-md-4 text-center">
+            <input required='' formControlName="MotherEducation"  type='text'>
+            <label alt='Education' placeholder='Education'></label>
+        </div>
+    
+        <div class="col-md-4 text-center">
+            <input required='' formControlName="MotherMobileNo"  type='text'>
+            <label alt='Mobile No' placeholder='Mobile No'></label>
+          </div>
+    
+          <div class="col-md-4 text-center">
+            <input required='' formControlName="MotherProfession"  type='text'>
+            <label alt='Profession' placeholder='Profession'></label>
+          </div>
+    
+    
+          <div class="col-md-4 text-center">
+             
+          </div>
+    
+          <div class="col-md-4 text-center">
+             
+        </div>
+    
+        
+    
+        <div class="col-md-4 text-center">
+            <input required='' formControlName="MIncome"  type='text'>
+            <label alt='Income' placeholder='Income'></label>
+        </div>
+
+        <div class="col-md-12 text-center">
+          <button type="submit" class="btn btn-primary">Submit</button>
+       
+
+      </div>
+
+</form></div>

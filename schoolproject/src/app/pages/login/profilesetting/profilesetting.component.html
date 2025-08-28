@@ -1,0 +1,75 @@
+<div class="head mb-5" style="display: flex;"><i class="bi-arrow-repeat"></i> <b>Account Settings</b></div>
+<div class="row" style="display: flex; justify-content: space-between;">
+  <div class="Container" style="width: 60%;">
+    <section class="login-section">
+
+      <div class="login-card">
+        <h4 class="mb-4" style="color: black;">Account details</h4>
+        <!-- Login Form -->
+        <form [formGroup]="profilesettingForm" (ngSubmit)="onSubmit()">
+          <input required='' formControlName="Username" type='text'>
+          <label alt='new username' placeholder=' new username'></label>
+
+
+
+          <input required='' formControlName="Password" type='Password'>
+          <label alt='new Password' placeholder=' new Password'></label>
+
+
+          <input required='' formControlName="confirmPassword" type='Password'>
+          <label alt='confirm Password' placeholder='confirm Password'></label>
+
+
+
+          <button class="btn btn-grad" type="submit">
+            <i class="bi bi-arrow-repeat me-2"></i>Update Settings
+          </button>
+
+
+        </form>
+      </div>
+    </section>
+
+  </div>
+
+
+  <div class="Container" style="width: 40%;">
+    <div class="card profile-card-3 mt-3">
+      <div class="card-header text-center">
+
+        <h4> <i class="bi bi-person-lock"></i> Account details</h4>
+      </div>
+
+      <div class="card-content">
+
+        <div class="details">
+          <div class="detail-item">
+            <span class="label">Username:</span>
+            <strong class="data">{{profileData?.Username}}</strong>
+          </div>
+          <div class="detail-item">
+            <span class="label">Password:</span>
+            <strong class="data">
+              <span *ngIf="isPasswordVisible; else passwordHidden">{{ profileData?.Password }}</span></strong>
+              <ng-template #passwordHidden>***</ng-template>
+              <i class="bi" [ngClass]="{'bi-eye': !isPasswordVisible, 'bi-eye-slash': isPasswordVisible}"
+                style="color: rgb(255, 255, 255);" (click)="togglePasswordVisibility()">
+              </i>
+
+          </div>
+          <div class="detail-item">
+            <span class="label">Status:</span>
+            <strong class="data"> <i class="bi-person-check-fill" style="color: chartreuse;"></i>
+              {{profileData?.ISACTIVE}} </strong>
+          </div>
+
+        </div>
+        <button class="btn bg-danger" type="submit" (click)="deleteAccount()">
+          <i class="bi bi-trash me-2"></i>Delete
+        </button>
+
+      </div>
+    </div>
+  </div>
+
+</div>

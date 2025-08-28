@@ -1,0 +1,103 @@
+/* ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #f1f1f1;
+  max-height: 80vh;  
+  overflow-y: auto;  
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);  
+  
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  flex-grow: 1;
+  transition: background-color 0.2s ease, color 0.2s ease;  
+}
+
+li i {
+  margin-right: 10px;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.active-link {
+  background-color: #60a7b5;  
+  color: white; 
+  
+}
+
+@media (max-width: 768px) {
+  ul {
+    width: 100%;  
+  }
+}
+
+ 
+ul::-webkit-scrollbar {
+  width: 8px;  
+}
+
+ul::-webkit-scrollbar-thumb {
+  background: #888;  
+  border-radius: 4px; 
+}
+
+ul::-webkit-scrollbar-thumb:hover {
+  background: #555;  
+}
+  */
+ 
+
+  .active-link {
+   font-weight: bold;
+   color: #000;
+    
+  }
+
+.container-fluid{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: gray;
+}
+ 
+.nav-link:hover {
+  color: #000000;
+  font-weight: bold;
+}
+/* Set initial state of the submenu (collapsed) */
+.submenu {
+  overflow: hidden; /* Hide content */
+  height: 0; /* Start with height 0 */
+  opacity: 0; /* Make it invisible */
+  transition: height 0.5s ease, opacity 0.5s ease; /* Smooth transition for height and opacity */
+}
+
+/* Set the open state for the submenu */
+.submenu.open {
+  height: auto; /* Set a fixed height for the submenu when opened */
+  opacity: 1; /* Make it fully visible */
+}
+
+/* This is for the submenu items to transition */
+.submenu.open li {
+  transition: opacity 0.5s ease-in-out; /* Optional, if you want submenu items to appear with delay */
+}
+
+
+
+
+
+
+

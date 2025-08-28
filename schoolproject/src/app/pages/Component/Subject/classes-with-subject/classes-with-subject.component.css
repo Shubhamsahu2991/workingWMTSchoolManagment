@@ -1,0 +1,20 @@
+ 
+.nav-link{
+    cursor:pointer;
+  }
+ .nav-link.fs-5{
+   color: #000;
+  
+   }
+  .TOTAL_SUBJECTSCount{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+  }
+
+  .TOTAL_SUBJECTS{
+    font-size: 13px;
+    color: dimgrey;
+  }
+  
+  

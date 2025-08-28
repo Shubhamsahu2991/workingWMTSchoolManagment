@@ -1,0 +1,426 @@
+.head{
+  font-weight: 700;
+}
+.Container{
+  background-color: aliceblue;
+  overflow: hidden;
+  padding: 10px;
+}
+.form-row {
+  display: flex;
+  justify-content: center;  /* Center the button horizontally */
+}
+
+
+
+
+
+
+
+.btn-grad {background-image: linear-gradient(to right, #fff56b 0%, #f49725 51%, #ffffff  100%)}
+ .btn-grad {
+    margin: 10px;
+    padding: 10px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #787676;
+    border-radius: 30px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  .custom-width {
+   width: 250px; /* Set the width to 150px or any value you prefer */
+}
+
+/* Container styling */
+.upload-container {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Pill-style label button */
+.upload-container label {
+  display: inline-block;
+  padding: 12px 30px;
+  background-image: linear-gradient(#f42f25 100%);
+  
+  transition: 0.5s;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 30px; /* Rounded pill shape */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  margin-top: 10px;
+  pointer-events: auto;
+}
+
+/* Hover effect for the pill button */
+.upload-container label:hover {
+  background-color: #0056b3;
+}
+
+/* Hide the default file input */
+.upload-container input[type="file"] {
+  display: none;
+}
+
+/* Optional: File selected state changes (if you need it) */
+.upload-container input[type="file"]:valid + label {
+  background-color: #f42f25; /* Green color when a file is selected */
+}
+
+/* Style for the file name display */
+.upload-container .file-name {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+
+
+
+
+input[type="text"] {
+  box-sizing: border-box;
+  width: 90%;
+  height: calc(3em + 2px);
+  margin: 0 0 1em;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1.5em;
+  background: #fff;
+  resize: none;
+  outline: none;
+}
+input[type="text"][required]:focus {
+  border-color: #fe7038;
+  font-weight:500 ;
+
+}
+input[type="text"][required]:focus + label[placeholder]:before {
+  color: #fd5d00;
+  font-weight:500 ;
+}
+input[type="text"][required]:focus + label[placeholder]:before,
+input[type="text"][required]:valid + label[placeholder]:before {
+  transition-duration: 0.2s;
+  transform: translate(0, -1.5em) scale(0.9, 0.9);
+  /* color: #ff0000;
+  font-weight:500 ; */
+}
+input[type="text"][required]:invalid + label[placeholder][alt]:before {
+  content: attr(alt);
+}
+input[type="text"][required] + label[placeholder] {
+  display: block;
+  pointer-events: none;
+  line-height: 1.25em;
+  margin-top: calc(-3em - 2px);
+  margin-bottom: calc((3em - 1em) + 2px);
+  font-weight:400 ;
+}
+input[type="text"][required] + label[placeholder]:before {
+  content: attr(placeholder);
+  display: inline-block;
+  margin: 0 calc(1em + 2px);
+  padding: 0 2px;
+  color: #a5b5be; 
+  white-space: nowrap;
+  transition: 0.3s ease-in-out;
+  background-image: linear-gradient(to bottom, #fff, #fff);
+  background-size: 100% 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: 500;
+}
+
+
+
+
+
+
+/* Styling for the select input */
+/* Styling for the select input */
+select {
+  box-sizing: border-box;
+  width: 90%;
+  height: calc(7vh); /* Ensure height accommodates the label and value */
+  margin: 0 0 1em;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 1.5em;
+  background: #fff;
+  appearance: none; /* Remove default dropdown appearance */
+  outline: none;
+  font-size: 1em;
+  padding-right: 2em; /* Make space for the arrow */
+}
+
+/* Styling for the select label (floating effect) */
+select + label[placeholder] {
+  display: block;
+  pointer-events: none;
+  line-height: 1.25em;
+  margin-top: calc(-3em - 2px);
+  margin-bottom: calc((3em - 1em) + 2px);
+  position: relative;
+  transition: 0.3s ease;
+}
+
+/* Floating label effect */
+select + label[placeholder]:before {
+  content: attr(placeholder);
+  display: inline-block;
+  margin: 0 calc(1em + 2px);
+  padding: 0 2px;
+  color: #898989;
+  white-space: nowrap;
+  transition: 0.3s ease-in-out;
+  background-image: linear-gradient(to bottom, #fff, #fff);
+  background-size: 100% 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* When the select is focused or has a value, make the label float */
+select:focus + label[placeholder]:before,
+select:valid + label[placeholder]:before {
+  transform: translate(0, -1.5em) scale(0.9, 0.9);
+   color: #a5b5be; 
+  transition-duration: 0.2s;
+}
+
+/* Optional: Add a border color when the select is focused */
+select:focus {
+  border-color: #00bafa;
+}
+
+/* Optional: Show error message if invalid */
+select:invalid + label[placeholder][alt]:before {
+  content: attr(alt);
+  color: #00bafa;
+}
+
+
+/* Add custom arrow and padding fix */
+select::-ms-expand {
+  display: none; /* Remove default dropdown arrow in IE */
+}
+
+select + label[placeholder]::after {
+  content: ' ▼'; /* Custom down arrow */
+  position: absolute;
+  top: 50%;
+  right: 2em;
+  transform: translateY(-50%);
+  font-size: 1.2em;
+  color: #a5b5be; 
+}
+
+/* Style the options inside the select */
+select option {
+  background-color: #f0f0f0; /* Background color */
+  color: #333; /* Text color */
+  padding: 10px; /* Padding for the options */
+  font-size: 1em; /* Font size */
+}
+
+/* Style the selected option */
+select option:checked {
+  background-color: #00bafa; /* Change background color when selected */
+  color: white; /* Change text color when selected */
+}
+
+/* Optional: Style the disabled option */
+select option:disabled {
+  background-color: #ccc; /* Light gray for disabled options */
+  color: #888; /* Text color for disabled options */
+}
+
+
+
+
+
+
+
+
+input[type="date"] {
+  box-sizing: border-box;
+  width: 90%;
+  height: calc(3em + 2px);
+  margin: 0 0 1em;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1.5em;
+  background: #fff;
+  resize: none;
+  outline: none;
+}
+input[type="date"][required]:focus {
+  border-color: #fe7038;
+  font-weight:500 ;
+
+}
+input[type="date"][required]:focus + label[placeholder]:before {
+  color: #fd5d00;
+  font-weight:500 ;
+}
+input[type="date"][required]:focus + label[placeholder]:before,
+input[type="date"][required]:valid + label[placeholder]:before {
+  transition-duration: 0.2s;
+  transform: translate(0, -1.5em) scale(0.9, 0.9);
+}
+input[type="date"][required]:invalid + label[placeholder][alt]:before {
+  content: attr(alt);
+}
+input[type="date"][required] + label[placeholder] {
+  display: block;
+  pointer-events: none;
+  line-height: 1.25em;
+  margin-top: calc(-3em - 2px);
+  margin-bottom: calc((3em - 1em) + 2px);
+  font-weight:400 ;
+}
+input[type="date"][required] + label[placeholder]:before {
+  content: attr(placeholder);
+  display: inline-block;
+  margin: 0 calc(1em + 2px);
+  padding: 0 2px;
+  color: #737373;
+  white-space: nowrap;
+  transition: 0.3s ease-in-out;
+  background-image: linear-gradient(to bottom, #fff, #fff);
+  background-size: 100% 5px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
+.profile-card-3 {
+  font-family: "Open Sans", Arial, sans-serif;
+  position: relative;
+  width: 350px;
+  text-align: center;
+  height: min-content;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 70px;
+}
+
+
+
+
+.profile-card-3 .card-header {
+  background-color: #255ff4;
+  color: white;
+  padding: 10px 0;
+}
+
+.profile-card-3 .profile-thumb-block {
+  position: relative;
+  margin-top: -50px;
+}
+
+.profile-card-3 .profile {
+  border-radius: 50%;
+  position: relative;
+  max-width: 100px;
+  margin-bottom: 10px;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  border: 2px solid #fff;
+  z-index: 1;
+}
+
+.profile-card-3 .card-content {
+  width: 100%;
+  padding: 15px 25px;
+  color: #232323;
+  background: #efefef;
+  border-radius: 0 0 10px 10px;
+}
+
+.profile-card-3 .details {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.profile-card-3 .details p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.profile-card-3 .details strong {
+  font-weight: 600;
+}
+
+.profile-card-3 .icon-block {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+
+
+
+.profile-card-3 .icon-block i {
+  
+color: rgb(255, 255, 255);
+border: #fff;
+margin-right: 20px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between rows */
+}
+
+.detail-item {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+  align-items: center; /* Center content vertically */
+}
+
+.label {
+  font-weight: normal; /* Labels in normal weight */
+  color: rgb(0, 0, 0); /* Color for labels */
+  width: 150px; /* Fixed width for labels */
+  text-align: left; /* Ensure labels align to the left */
+}
+
+.data {
+  font-weight: bold; /* Make the data bold */
+  color: rgb(51, 51, 51); /* Color for data text */
+}
+
+.account-status {
+  color: blue;
+  font-weight: 600;
+}
+
+.account-status .data {
+  color: rgb(0, 0, 0); /* Account Status data color */
+}
+
+/* Optional: Style for icons */
+.detail-item i {
+  margin-left: 5px;
+  color: green;
+}
+
+

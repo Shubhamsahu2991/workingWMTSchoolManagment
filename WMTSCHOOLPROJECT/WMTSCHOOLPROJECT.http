@@ -1,0 +1,6 @@
+@WMTSCHOOLPROJECT_HostAddress = http://localhost:80
+
+GET {{WMTSCHOOLPROJECT_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,30 @@
+
+ 
+<div class="d-flex flex-row flex-wrap justify-content-center gap-4">
+ 
+    <div class="card text-center" style="width: 15rem;" *ngFor="let item of SubjectData">
+        <div class="card-header">
+            <ul class="nav nav-pills card-header-pills">
+              <li class="nav-item">
+                <a class="nav-link fs-5 fw-semibold" href="#">{{ item.CLASSNAME }}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" > <i class="bi bi-pencil-square fs-5"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" ><i class="bi bi-trash3-fill fs-5 text-danger"></i></a>
+              </li>
+            </ul>
+          </div>
+      <div class="card-body">
+        <p class="TOTAL_SUBJECTS" > <span class="TOTAL_SUBJECTSCount"> {{ item.TOTAL_SUBJECTS }} </span>TOTAL SUBJECTS</p>
+        <p><strong>Subjects and Marks:</strong></p>
+        <ul>
+          <li *ngFor="let subject of item.SUBJECT_MARKS.split(', ')">
+            {{ subject }}
+          </li>
+        </ul>
+      </div>
+    </div>
+ 
+</div>

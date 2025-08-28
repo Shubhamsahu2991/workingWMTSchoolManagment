@@ -1,0 +1,130 @@
+<div class="row" style="display: flex; justify-content: space-between;">
+  <div class="Container" style="width: 60%;">
+    <div class="row text-center">
+      <h2 class="head mt-5">Update Profile</h2>
+    </div>
+    <form class="row g-2 mt-5" [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+      <div class="col-md-4 text-center">
+        <div class="upload-container">
+          
+          <input type="file" (change)="onFileSelected($event)" formControlName="logo" id="fileInput" />
+          
+          <label for="fileInput"  > <i class="bi bi-cloud-arrow-up-fill"></i>Upload Logo</label>
+          <div *ngIf="Filename" class="file-name">{{ Filename }}</div>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+         
+      </div>
+      <div class="col-md-4 text-center">
+         
+      </div>
+      <div class="col-md-4 text-center" style="width: 440px;">
+        <input required='' formControlName="SCHOOL_NAME" type='text'>
+        <label alt='Name of Institute*' placeholder='Name of Institute*'></label>
+      </div>
+      <div class="col-md-4 text-center">
+        <input required='' formControlName="SCHOOL_CODE" type='text'>
+        <label alt='School code.' placeholder='School code.'></label>
+      </div>
+      <div class="col-md-4 text-center" style="width: 440px;">
+        <input required='' formControlName="TargetLine" type='text'>
+        <label alt='Target Line*' placeholder='Target Line*'></label>
+      </div>
+      <div class="col-md-4 text-center">
+        <input required='' formControlName="SchoolRegistrationNo" type='text'>
+        <label alt='Registration No.' placeholder='school Registration No.'></label>
+      </div>
+      <div class="col-md-4 text-center" style="width: 440px;">
+        <input required='' formControlName="Address" type='text'>
+        <label alt='Address' placeholder='Address'></label>
+      </div>
+      <div class="col-md-4 text-center">
+        <input required='' formControlName="MobileNo" type='text'>
+        <label alt='MobileNo' placeholder='MobileNo'></label>
+      </div>
+      <div class="col-md-4 text-center">
+        <select formControlName="City" required>
+          <option></option>
+          <option value="bhopal">Bhopal</option>
+          <option value="vidisha">Vidisha</option>
+        </select>
+        <label alt="City" placeholder="City"></label>
+      </div>
+      <div class="col-md-4 text-center">
+        <select formControlName="State" required>
+          <option></option>
+          <option value="mp">Madhya Pradesh</option>
+          <option value="mh">Maharashtra</option>
+        </select>
+        <label alt="State" placeholder="State"></label>
+      </div>
+      <div class="col-md-4 text-center">
+        <select formControlName="Country" required>
+          <option></option>
+          <option value="India">India</option>
+          <option value="Pakistan">Pakistan</option>
+        </select>
+        <label alt="Country" placeholder="Country"></label>
+      </div>
+      <div class="col-md-4 text-center">
+        <button class="btn btn-grad" type="submit">
+          <i class="bi bi-arrow-repeat me-2"></i>Update
+        </button>
+      </div>
+    </form>
+  </div>
+
+  <div class="Container" style="width: 40%;">
+    <div class="card profile-card-3 mt-3">
+      <div class="card-header text-center">
+        <h4>ADMIN PROFILE</h4>
+      </div>
+      <div class="profile-thumb-block mt-3">
+        <img *ngIf="profileData?.LogoPath" [src]="profileData?.LogoPath" width="110px" height="110px" alt="profile-image" class="profile" />
+      </div>
+      <div class="card-content">
+        <h2>{{ profileData?.SCHOOL_NAME }}</h2>
+        <h5>{{ profileData?.TargetLine }}</h5>
+        <div class="details">
+          <div class="detail-item">
+            <span class="label">Registration No:</span>
+            <strong class="data">{{ profileData?.SchoolRegistrationNo }}</strong>
+          </div>
+          <div class="detail-item">
+            <span class="label">School code:</span>
+            <strong class="data">{{ profileData?.SCHOOL_CODE }}</strong>
+          </div>
+          <div class="detail-item">
+            <span class="label">MobileNo:</span>
+            <strong class="data">{{ profileData?.MobileNo }}</strong>
+          </div>
+          <div class="detail-item account-status">
+            <span class="label">Status:</span>
+            <strong class="data">{{ profileData?.ISACTIVE}} <i class="bi bi-person-check-fill"></i></strong>
+          </div>
+          <div class="detail-item">
+            <span class="label">Email:</span>
+            <strong class="data">{{ profileData?.EMAILID }}</strong>
+          </div>
+          <div class="detail-item">
+            <span class="label">Address: </span>
+            <strong class="data">{{ profileData?.Address }}</strong>
+          </div>
+          <div class="detail-item">
+            <span class="label">City: </span>
+            <strong class="data">{{ profileData?.City }}</strong>
+          </div>
+          <div class="detail-item">
+            <span class="label">State: </span>
+            <strong class="data">{{ profileData?.State }}</strong>
+          </div>
+          <div class="detail-item">
+            <span class="label">Country: </span>
+            <strong class="data">{{ profileData?.Country }}</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

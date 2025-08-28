@@ -1,0 +1,23 @@
+<div class="quiz-container">
+  <h2>Quiz App</h2>
+
+  <div *ngIf="!showResult">
+    <div class="question">{{ questions[currentQuestionIndex].question }}</div>
+    <div class="options">
+      <button
+        *ngFor="let option of questions[currentQuestionIndex].options"
+        (click)="selectOption(option)"
+        [class.selected]="selectedOption === option"
+      >
+        {{ option }}
+      </button>
+    </div>
+    <button (click)="next()" [disabled]="!selectedOption">Next</button>
+  </div>
+
+  <div *ngIf="showResult" class="result">
+    <h3>Quiz Completed!</h3>
+    <p>Your Score: {{ score }} / {{ questions.length }}</p>
+    <button (click)="restart()">Restart Quiz</button>
+  </div>
+</div>

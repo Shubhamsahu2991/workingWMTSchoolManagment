@@ -1,0 +1,34 @@
+.main-content {
+    
+    display: flex; 
+}
+
+app-sidebar {
+    transition: transform 2s ease; 
+    transform: translateX(0);
+}
+ 
+
+
+.content {
+  
+    flex-grow: 1; /* Allow the content area to take up the remaining space */
+    padding: 20px; /* Optional: add some padding */
+    background-color: #eaeaea; /* Optional: background color for the content area */
+}
+
+
+ 
+.head{
+    height: 45px;
+    border-radius: 50px;
+    border: 2px solid #d9d4d4;
+    margin-bottom: 10px;
+    background-color: #fff;
+    font-size: 14px;
+    padding: 8.5px;
+   }
+ .head b {
+    margin-left: 10px;
+ }
+ 

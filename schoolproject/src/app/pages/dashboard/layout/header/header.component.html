@@ -1,0 +1,51 @@
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="showhide" style="color: rgb(0, 0, 0);" (click)="toggleSidebar()">
+        <i style="cursor: pointer;" class="fa fa-fw fa-bars"></i>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="#">Welcome School Name</a>
+          </li>
+        </ul>
+  
+        <!-- Align the username dropdown to the right -->
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle"   role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img style="margin-right: 10px;"     width="30" height="30" class="rounded-circle">
+              <span class="fw-semibold">{{ USERID }}</span>
+            </a> 
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item"  routerLink="/loginprofile" >
+                  <i class="bi-person-vcard fs-5 me-2" ></i> Profile
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" routerLink="/profilesetting"  >
+                  <i class="bi-gear fs-5 me-2"></i> Setting
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li>
+                <a class="dropdown-item" (click)="onLogout()">
+                  <i class="bi-box-arrow-right fs-5 me-2"></i> Logout
+                </a>
+              </li>
+            </ul>
+            
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  

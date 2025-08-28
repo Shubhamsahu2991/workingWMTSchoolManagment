@@ -1,0 +1,16 @@
+<!-- layout.component.html -->
+<app-header></app-header>
+<div class="main-content">
+    <app-sidebar></app-sidebar>
+    <div class="content">
+       
+        <div class="head" *ngIf="activeRouteName">
+            <i class="bi bi-bookmark-star" style="margin-left: 20px;"></i>
+            {{ activeRouteName }}
+          </div>
+          
+          
+        <router-outlet></router-outlet> <!-- This is where routed components will be displayed -->
+    </div>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,70 @@
+<div class="login-wrapper mt-4">
+    <div class="login-container">
+        <h2>Create User</h2>
+        <form [formGroup]="createuserform" (ngSubmit)="onSubmit()">
+            <!-- Error message -->
+            <div *ngIf="error" class="alert alert-danger">
+                {{ error }}
+            </div>
+
+            <!-- Error for passwords not matching -->
+            <div *ngIf="createuserform.hasError('passwordsDoNotMatch') && createuserform.get('confirmPassword')?.touched" class="alert alert-danger">
+                Passwords do not match.
+            </div>
+
+            <!-- Role selection -->
+            <div class="input-group">
+                <select formControlName="role" placeholder="Role">
+                    <option value="0">Select Role</option>
+                    <option value="School">School</option>
+                    <option value="Student">Student</option>
+                    <option value="Teacher">Teacher</option>
+                </select>
+            </div>
+
+            <!-- Username input -->
+            <div class="input-group">
+                <input type="text" id="username" formControlName="username" name="username" placeholder="Username" required>
+            </div>
+
+            <!-- Password input -->
+            <div class="input-group">
+                <input type="password" formControlName="password" id="password" name="password" placeholder="Password" required>
+            </div>
+
+            <!-- Confirm Password input -->
+            <div class="input-group">
+                <input type="password" formControlName="confirmPassword" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" required>
+            </div>
+
+            <!-- Mobile number input -->
+            <div class="input-group">
+                <input type="text" formControlName="mobileNumber" id="mobileNumber" name="mobileNumber" placeholder="Mobile Number" required>
+            </div>
+
+            <!-- Generate OTP Button (Visible initially) -->
+            <div *ngIf="!otpSent">
+                <button type="button" class="otp-btn" (click)="sendOtp()" [disabled]="createuserform.get('mobileNumber')?.invalid">
+                    Generate OTP
+                </button>
+            </div>
+
+            <!-- OTP input and Verify OTP Button (Visible after OTP is sent) -->
+            <div *ngIf="otpSent && !otpValid">
+                <div class="input-group">
+                    <input type="text" formControlName="otp" id="otp" name="otp" placeholder="Enter OTP" required>
+                </div>
+                <button type="button" class="otp-btn" (click)="verifyOtp()" [disabled]="createuserform.get('otp')?.invalid">
+                    Verify OTP
+                </button>
+            </div>
+
+            <!-- Create User Button (Visible after OTP is verified) -->
+            <div *ngIf="otpValid">
+                <button type="submit" class="login-btn" [disabled]="createuserform.invalid">
+                    Create User
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

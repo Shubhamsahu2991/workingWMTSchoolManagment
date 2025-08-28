@@ -1,0 +1,351 @@
+
+ 
+.head{
+    height: 45px;
+    border-radius: 50px;
+    border: 2px solid #d9d4d4;
+    margin-bottom: 10px;
+    background-color: #f42f25;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 8.5px;
+   }
+ .head b {
+    margin-left: 10px;
+ }
+ 
+
+
+/* Login Page Styles */
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+    text-align: center;
+     background-color: #e7e9ea;
+    color: #fff;
+    padding: 20px;
+     
+  }
+  
+  /* Card Container */
+  .login-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    animation: fadeInUp 1s ease-out;
+  }
+  
+  .login-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4e8cd1;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Fields */
+  .form-control {
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #4e8cd1;
+    box-shadow: 0 0 5px rgba(78, 140, 209, 0.5);
+  }
+  
+  /* Login Button */
+  .login-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    background-color: #f43f5e;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #4e8cd1;
+  }
+  
+  /* Animation Effects */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+  
+
+.profile-card-3 {
+    font-family: "Open Sans", Arial, sans-serif;
+    position: relative;
+    width: 350px;
+    text-align: center;
+    height: min-content;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 70px;
+    background-color: #255ff4;
+  }
+  
+  
+  
+  
+  .profile-card-3 .card-header {
+    background-color: #255ff4;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .profile-card-3 .profile-thumb-block {
+    position: relative;
+    margin-top: -50px;
+  }
+  
+  .profile-card-3 .profile {
+    border-radius: 50%;
+    position: relative;
+    max-width: 100px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+    border: 2px solid #fff;
+    z-index: 1;
+  }
+  
+  .profile-card-3 .card-content {
+    width: 100%;
+    padding: 15px 25px;
+    color: #ffffff;
+    background-color: #255ff4;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  .profile-card-3 .details {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  .profile-card-3 .details p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .profile-card-3 .details strong {
+    font-weight: 600;
+  }
+  
+  .profile-card-3 .icon-block {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  
+  
+  
+  .profile-card-3 .icon-block i {
+    
+  color: rgb(255, 255, 255);
+  border: #fff;
+  margin-right: 20px;
+  }
+  .details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between rows */
+  }
+  
+  .detail-item {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center; /* Center content vertically */
+  }
+  
+  .label {
+    font-weight: normal; /* Labels in normal weight */
+    color: rgb(255, 255, 255); /* Color for labels */
+    width: 150px; /* Fixed width for labels */
+    text-align: left; /* Ensure labels align to the left */
+  }
+  
+  .data {
+    font-weight: bold; /* Make the data bold */
+    color: rgb(255, 255, 255); /* Color for data text */
+  }
+  
+  .account-status {
+    color: blue;
+    font-weight: 600;
+  }
+  
+  .account-status .data {
+    color: rgb(0, 0, 0); /* Account Status data color */
+  }
+  
+  /* Optional: Style for icons */
+  .detail-item i {
+    margin-left: 5px;
+    color: green;
+  }
+  
+  
+  
+  
+  .btn-grad {background-image: linear-gradient(to right, #fff56b 0%, hsl(62, 84%, 59%)  51%, #ffffff  100%)}
+  .btn-grad {
+      
+    
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: rgb(255, 255, 255);            
+     box-shadow: 0 0 20px #bebebe;
+     border-radius: 30px;
+     display: block;
+   }
+  
+   .btn-grad:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #000000;
+     text-decoration: none;
+   }
+   
+
+   
+
+
+input[type="text"] {
+    box-sizing: border-box;
+    width: 90%;
+    height: calc(3em + 2px);
+    margin: 0 0 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1.5em;
+    background: #fff;
+    resize: none;
+    outline: none;
+  }
+  input[type="text"][required]:focus {
+    border-color: #fe7038;
+    font-weight:500 ;
+  
+  }
+  input[type="text"][required]:focus + label[placeholder]:before {
+    color: #fd5d00;
+    font-weight:500 ;
+  }
+  input[type="text"][required]:focus + label[placeholder]:before,
+  input[type="text"][required]:valid + label[placeholder]:before {
+    transition-duration: 0.2s;
+    transform: translate(0, -1.5em) scale(0.9, 0.9);
+    /* color: #ff0000;
+    font-weight:500 ; */
+  }
+  input[type="text"][required]:invalid + label[placeholder][alt]:before {
+    content: attr(alt);
+  }
+  input[type="text"][required] + label[placeholder] {
+    display: block;
+    pointer-events: none;
+    line-height: 1.25em;
+    margin-top: calc(-3em - 2px);
+    margin-bottom: calc((3em - 1em) + 2px);
+    font-weight:400 ;
+  }
+  input[type="text"][required] + label[placeholder]:before {
+    content: attr(placeholder);
+    display: inline-block;
+    margin: 0 calc(1em + 2px);
+    padding: 0 2px;
+    color: #a5b5be; 
+    white-space: nowrap;
+    transition: 0.3s ease-in-out;
+    background-image: linear-gradient(to bottom, #fff, #fff);
+    background-size: 100% 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: 500;
+  }
+  
+
+
+
+  
+input[type="Password"] {
+    box-sizing: border-box;
+    width: 90%;
+    height: calc(3em + 2px);
+    margin: 0 0 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1.5em;
+    background: #fff;
+    resize: none;
+    outline: none;
+  }
+  input[type="Password"][required]:focus {
+    border-color: #fe7038;
+    font-weight:500 ;
+  
+  }
+  input[type="Password"][required]:focus + label[placeholder]:before {
+    color: #fd5d00;
+    font-weight:500 ;
+  }
+  input[type="Password"][required]:focus + label[placeholder]:before,
+  input[type="Password"][required]:valid + label[placeholder]:before {
+    transition-duration: 0.2s;
+    transform: translate(0, -1.5em) scale(0.9, 0.9);
+    /* color: #ff0000;
+    font-weight:500 ; */
+  }
+  input[type="Password"][required]:invalid + label[placeholder][alt]:before {
+    content: attr(alt);
+  }
+  input[type="Password"][required] + label[placeholder] {
+    display: block;
+    pointer-events: none;
+    line-height: 1.25em;
+    margin-top: calc(-3em - 2px);
+    margin-bottom: calc((3em - 1em) + 2px);
+    font-weight:400 ;
+  }
+  input[type="Password"][required] + label[placeholder]:before {
+    content: attr(placeholder);
+    display: inline-block;
+    margin: 0 calc(1em + 2px);
+    padding: 0 2px;
+    color: #a5b5be; 
+    white-space: nowrap;
+    transition: 0.3s ease-in-out;
+    background-image: linear-gradient(to bottom, #fff, #fff);
+    background-size: 100% 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-weight: 500;
+  }
+  

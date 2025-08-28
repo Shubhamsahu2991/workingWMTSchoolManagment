@@ -1,0 +1,19 @@
+<div class="game-wrapper">
+  <h2>Tic-Tac-Toe</h2>
+
+  <div class="board">
+    <ng-container *ngFor="let row of board; let i = index">
+      <div
+        *ngFor="let cell of row; let j = index"
+        class="cell"
+        (click)="makeMove(i, j)"
+      >
+        {{ cell }}
+      </div>
+    </ng-container>
+  </div>
+
+  <div *ngIf="winner" class="result">Winner: {{ winner }}</div>
+
+  <button (click)="resetGame()">Reset Game</button>
+</div>

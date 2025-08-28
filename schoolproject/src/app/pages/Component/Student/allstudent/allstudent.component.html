@@ -1,0 +1,95 @@
+<div class="card text-center">
+   <div class="card-header">
+      <div class="d-flex justify-content-between align-items-center">
+         <ul class="nav nav-pills card-header-pills">
+            <li class="nav-item">
+               <a class="nav-link" (click)="opencard()">Cards</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" (click)="openlist()">List</a>
+            </li>   
+         </ul>
+
+         <!-- Search Input Field -->
+          <!-- Search Input Field with Search Icon -->
+          <div class="search-container">
+            <div class="input-group">
+               <input 
+                  type="text" 
+                  class="form-control" 
+                  placeholder="Search by Name" 
+                  [(ngModel)]="searchText" 
+                  (input)="filterStudents()">
+               <!-- Search Icon -->
+               <button class="btn btn-outline-secondary" (click)="filterStudents()">
+                  <i class="bi bi-search"></i> <!-- Bootstrap Search Icon -->
+               </button>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- Cards View -->
+<div *ngIf="isCardView" class="d-flex flex-row flex-wrap justify-content-center">
+   <div class="row">
+      <div class="col-md-3" *ngFor="let student of filteredStudents" style="width: min-content;">
+         <div class="card profile-card-3">
+            <div class="background-block">
+               <div class="background"></div>
+            </div>
+            <div class="profile-thumb-block">
+               <img src="https://randomuser.me/api/portraits/men/78.jpg" alt="profile-image" class="profile" />
+            </div>
+            <div class="card-content">
+               <h2>{{ student.Name }}<small>{{ student.Rno }}</small></h2>
+               <div class="icon-block">
+                  <a (click)="viewStudentDetails(student.id)" data-bs-toggle="tooltip" data-bs-placement="top" title="View"><i class="bi bi-search"></i></a>
+                  <a (click)="viewStudentDetailsid(student.id)" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit"><i class="bi bi-pencil-fill"></i></a>
+                  <a  data-bs-toggle="tooltip" data-bs-placement="top" title="Delete"><i (click)="onDelete(student)" class="bi bi-trash"></i></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+<!-- List View with Table -->
+<div *ngIf="!isCardView"   >
+   <div class="table-responsive" >
+   <table class="table table-striped">
+      <thead>
+         <tr>
+            <th (click)="sortTable('Name')">Name</th>
+            <th (click)="sortTable('Rno')">Registration No</th>
+            <th (click)="sortTable('Classname')">Class</th>
+            <th (click)="sortTable('DateofAdmission')">Date of Admission</th>
+            <th>Actions</th> <!-- Separate column for Actions -->
+         </tr>
+      </thead>
+      <tbody>
+         <tr *ngFor="let student of filteredStudents">
+            <td>{{ student.Name }}</td>
+            <td>{{ student.Rno }}</td>
+            <td>{{ student.Classname }}</td>
+            <td>{{ student.DateofAdmission | date: 'dd-MM-yyyy' }}</td>
+            <td>
+               <!-- Actions column with icons for View, Edit, and Delete -->
+               <div class="icon-block">
+                  <a (click)="viewStudentDetails(student.id)" data-bs-toggle="tooltip" data-bs-placement="top" title="View">
+                     <i class="bi bi-search"></i>
+                  </a>
+                  <a (click)="viewStudentDetailsid(student.id)" data-bs-toggle="tooltip" data-bs-placement="top" title="Edit">
+                     <i class="bi bi-pencil-fill"></i>
+                  </a>
+                  <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Delete">
+                     <i class="bi bi-trash"></i>
+                  </a>
+               </div>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+</div>
+ <div  class="d-flex justify-content-center">  <button (click)="printTable()" class="btn btn-primary mb-3">Print Table</button></div>
+</div>
+

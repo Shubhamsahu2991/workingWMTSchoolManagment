@@ -1,0 +1,143 @@
+
+/* Login Page Styles */
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  background: linear-gradient(120deg, #4e8cd1, #f9b34c);
+  color: #fff;
+  padding: 20px;
+   
+}
+
+
+a{
+  font-weight: 600;
+  text-decoration: none;
+  float: right;
+}
+/* Card Container */
+.login-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  animation: fadeInUp 1s ease-out;
+}
+
+.login-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #4e8cd1;
+  margin-bottom: 20px;
+}
+
+ 
+
+/* Role Selection Icons */
+.role-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.role-icons i {
+  font-size: 3rem;          /* icon size */
+  width: 4.5rem;              /* bigger circle width */
+  height: 4.5rem;             /* bigger circle height */
+  line-height: 4.5rem;        /* center icon vertically */
+  padding: 0;                 
+  border-radius: 50%;
+  background: #fff;
+  color: #4e8cd1;
+  cursor: pointer;
+  text-align: center;         /* center icon horizontally */
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+
+.role-icons i.selected {
+  background-color: #f43f5e;
+  color: #fff;
+  border: 2px solid white;
+  transform: scale(1.1);
+}
+
+
+
+/* .role-icons i:hover {
+  background: #4e8cd1;
+  color: white;
+  transform: scale(1.2);
+} */
+
+/* Input Fields */
+.form-control {
+  width: 250px;       /* Set fixed smaller width */
+  max-width: 100%;    /* Responsive for small screens */
+  margin: 0 auto 20px auto;  /* Center inputs with bottom margin */
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+  height: 38px;
+  display: block;     /* Ensure width works properly */
+}
+
+
+.form-control:focus {
+  border-color: #4e8cd1;
+  box-shadow: 0 0 3px rgba(78, 140, 209, 0.4);
+}
+
+
+/* Login Button */
+.login-button {
+  width: 250px;        /* Same fixed width as inputs */
+  max-width: 100%;     /* Responsive */
+  margin: 0 auto;      /* Center button */
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #f43f5e;
+  color: white;
+  transition: background-color 0.3s;
+  display: block;      /* To respect width and margin */
+}
+
+.login-button:hover {
+  background-color: #4e8cd1;
+}
+
+/* Red border for inputs when invalid and touched */
+input.ng-touched.ng-invalid {
+  border-color: #dc3545 !important;  /* Bootstrap's red */
+  box-shadow: 0 0 5px rgba(220, 53, 69, 0.5);
+}
+
+input.ng-touched.ng-invalid::placeholder {
+  color: #dc3545;
+  opacity: 1; /* Make sure placeholder color is fully visible */
+}
+
+
+
+/* Animation Effects */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,363 @@
+[
+  {
+    "ContainingType": "WMTSCHOOLPROJECT.Controllers.AccountController",
+    "Method": "CreateUser",
+    "RelativePath": "api/Account/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createUserRequest",
+        "Type": "WMTSCHOOLPROJECT.Controllers.CreateUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WMTSCHOOLPROJECT.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequest",
+        "Type": "WMTSCHOOLPROJECT.Controllers.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WMTSCHOOLPROJECT.Controllers.AccountController",
+    "Method": "SendOtp",
+    "RelativePath": "api/Account/sendOtp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WMTSCHOOLPROJECT.Controllers.AccountController\u002BSendOtpRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WMTSCHOOLPROJECT.Controllers.AccountController",
+    "Method": "VerifyOtp",
+    "RelativePath": "api/Account/verifyOtp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WMTSCHOOLPROJECT.Controllers.AccountController\u002BVerifyOtpRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WMTSCHOOLPROJECT.Areas.Class.Controllers.ClassController",
+    "Method": "DeleteClass",
+    "RelativePath": "api/Class/DeleteClass/{ClassID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ClassID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WMTSCHOOLPROJECT.Areas.Class.Controllers.ClassController",
+    "Method": "GetClassdetails",
+    "RelativePath": "api/Class/GetClassdetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WMTSCHOOLPROJECT.Areas.Class.Controllers.ClassController",
+    "Method": "PostClass",
+    "RelativePath": "api/Class/newclass",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "classData",
+        "Type": "WMTSCHOOLPROJECT.Areas.Class.Models.ClassModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WMTSCHOOLPROJECT.Areas.Class.Controllers.ClassController",
+    "Method": "UpdateClass",
+    "RelativePath": "api/Class/updateClass",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatedClass",
+        "Type": "WMTSCHOOLPROJECT.Areas.Class.Models.ClassModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WMTSCHOOLPROJECT.Areas.profile.Controllers.profilesettingController",
+    "Method": "DeleteUserAccount",
+    "RelativePath": "api/profilesetting/deleteusers/{USER_ID}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "USER_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WMTSCHOOLPROJECT.Areas.profile.Controllers.profilesettingController",
+    "Method": "GetUserDetails",
+    "RelativePath": "api/profilesetting/getprofilesetting/{USER_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "USER_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WMTSCHOOLPROJECT.Areas.profile.Controllers.profilesettingController",
+    "Method": "UpdateProfileSetting",
+    "RelativePath": "api/profilesetting/updateprofilesetting/{USER_ID}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "USER_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedUser",
+        "Type": "WMTSCHOOLPROJECT.Areas.profile.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WMTSCHOOLPROJECT.Areas.student.Controllers.StudentApiController",
+    "Method": "DeleteStudent",
+    "RelativePath": "api/StudentApi/DeleteStudent/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WMTSCHOOLPROJECT.Areas.student.Controllers.StudentApiController",
+    "Method": "getAllStudents",
+    "RelativePath": "api/StudentApi/getAllStudents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WMTSCHOOLPROJECT.Areas.student.Controllers.StudentApiController",
+    "Method": "AddStudent",
+    "RelativePath": "api/StudentApi/insertstudent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "student",
+        "Type": "WMTSCHOOLPROJECT.Areas.student.Models.Student",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WMTSCHOOLPROJECT.Areas.student.Controllers.StudentApiController",
+    "Method": "SearchStudents",
+    "RelativePath": "api/StudentApi/search/{rNo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rNo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WMTSCHOOLPROJECT.Areas.student.Models.Student, WMTSCHOOLPROJECT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WMTSCHOOLPROJECT.Areas.student.Controllers.StudentApiController",
+    "Method": "GetClassDetails",
+    "RelativePath": "api/StudentApi/student",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WMTSCHOOLPROJECT.Areas.student.Controllers.StudentApiController",
+    "Method": "UpdateStudent",
+    "RelativePath": "api/StudentApi/updatestudent/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "student",
+        "Type": "WMTSCHOOLPROJECT.Areas.student.Models.Student",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WMTSCHOOLPROJECT.Areas.Subject.Controllers.SubjectController",
+    "Method": "GetSubjectDetails",
+    "RelativePath": "api/Subject/GetSubjectdetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WMTSCHOOLPROJECT.Areas.Subject.Controllers.SchoolRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WMTSCHOOLPROJECT.Areas.Subject.Controllers.SubjectController",
+    "Method": "PostSubjects",
+    "RelativePath": "api/Subject/newsubject",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subjectData",
+        "Type": "WMTSCHOOLPROJECT.Areas.Subject.Controllers.SubjectDataModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WMTSCHOOLPROJECT.Areas.profile.Controllers.UserController",
+    "Method": "GetUserDetails",
+    "RelativePath": "api/User/getusers/{USER_ID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "USER_ID",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WMTSCHOOLPROJECT.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WMTSCHOOLPROJECT.WeatherForecast, WMTSCHOOLPROJECT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

@@ -1,0 +1,54 @@
+
+<div class="d-flex flex-row flex-wrap justify-content-center gap-4">
+ <div class="Container">
+    <div class="card text-center p-5">
+      <form [formGroup]="addsubjectform" >
+        <div class="custom-select-container mb-4">
+          <select formControlName="classname" required>
+            <option value="0" disabled selected>Select Class</option>
+            <option *ngFor="let class of classes" [value]="class.ClassID">{{ class.Classname }}</option>
+          </select>
+          <label alt="Please select a Class" placeholder=" Class"></label>
+        </div>
+  
+        <!-- Container for Subject Name and Subject Marks -->
+        <div formArrayName="subjects">
+            <div *ngFor="let subject of subjects.controls; let i = index" [formGroupName]="i" class="mb-3 subjectinput">
+              <div style="position: relative; width: 70%;">
+                <input formControlName="Subjectname" required type="text">
+                <label alt="Subject Name" placeholder="Subject Name"></label>
+              </div>
+              <div style="position: relative; width: 30%;">
+                <input formControlName="subjectmarks" required type="text">
+                <label alt="Subject Marks" placeholder="Subject Marks"></label>
+              </div>
+            </div>
+          </div>
+    
+
+        <div class="mb-3 addremove">
+            <div style="position: relative;  ">
+                <button (click)="addSubject()" class="btn btn-sm"  >
+                    <i class="bi bi-plus me-2"></i>Add More
+                  </button>
+            </div>
+          
+              <div (click)="removeSubject()" style="position: relative; ">
+                <button class="btn btn-sm"  >
+                    <i class="bi bi-dash me-2"></i>Remove
+                  </button>
+                </div>
+          </div>
+
+       
+       
+        <!-- Submit Button -->
+        <div class="form-row">
+          <button class="btn btn-grad" type="submit" (click)="onSubmit();">
+            <i class="bi bi-plus me-2"></i>Create
+          </button>
+        </div>
+      </form>
+    </div>
+</div>
+</div>

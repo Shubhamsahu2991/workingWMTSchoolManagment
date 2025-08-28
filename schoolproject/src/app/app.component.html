@@ -1,0 +1,6 @@
+<!-- Show the spinner when the loading service indicates that loading is true -->
+
+ 
+<app-spinner ></app-spinner>
+<app-welcomeload *ngIf="welcomeshow"></app-welcomeload>
+<router-outlet *ngIf="!welcomeshow"></router-outlet>

@@ -1,0 +1,95 @@
+
+  
+<section class="login-section">
+  <div class="login-card">
+    <h2 class="login-heading">Login</h2>
+
+    <!-- Global error message -->
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <div *ngIf="error" class="alert alert-danger" style="margin-bottom: 15px;">
+        {{ error }}
+      </div>
+
+      <!-- Role required error above icons -->
+      <div class="text-danger" style="margin-bottom: 6px;">
+        <span *ngIf="loginForm.controls['role'].touched && loginForm.controls['role'].errors?.['required']">
+          Role is required
+        </span>
+      </div>
+
+      <!-- Role selection icons -->
+      <div class="role-icons" style="margin-bottom: 15px;">
+        <i
+          class="bi bi-person-lock"
+          title="School"
+          [class.selected]="loginForm.controls['role'].value === 'School'"
+          (click)="selectRole('School')"
+          data-role="School"
+        ></i>
+
+        <i
+          class="bi bi-person-check"
+          title="Student"
+          [class.selected]="loginForm.controls['role'].value === 'Student'"
+          (click)="selectRole('Student')"
+          data-role="Student"
+        ></i>
+
+        <i
+          class="bi bi-person-badge"
+          title="Teacher"
+          [class.selected]="loginForm.controls['role'].value === 'Teacher'"
+          (click)="selectRole('Teacher')"
+          data-role="Teacher"
+        ></i>
+      </div>
+
+      <!-- Username input with dynamic placeholder -->
+      <input
+        type="text"
+        class="form-control"
+        formControlName="username"
+        [placeholder]="
+          loginForm.controls['username'].touched && loginForm.controls['username'].hasError('required')
+            ? 'Username is required'
+            : 'Username'
+        "
+        name="username"
+        required
+      />
+
+      <!-- Password input with dynamic placeholder -->
+      <input
+        type="password"
+        class="form-control"
+        formControlName="password"
+        [placeholder]="
+          loginForm.controls['password'].touched && loginForm.controls['password'].hasError('required')
+            ? 'Password is required'
+            : 'Password'
+        "
+        name="password"
+        required
+      />
+
+      <!-- Submit button -->
+      <button type="submit" [disabled]="isLoading" class="login-button" style="margin-top: 15px;">
+        <ng-container *ngIf="!isLoading">Login</ng-container>
+        <ng-container *ngIf="isLoading">
+          <div class="loader"></div>
+        </ng-container>
+      </button>
+
+      <a class="mt-4" routerLink="/create" routerLinkActive="router-link-active" style="display: block; margin-top: 12px;">
+        New user
+      </a>
+    </form>
+  </div>
+</section>
+
+
+
+
+
+
+ 

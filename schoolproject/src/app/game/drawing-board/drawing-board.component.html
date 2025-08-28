@@ -1,0 +1,22 @@
+<div class="container">
+  <h2>Snake Game with Leaderboard</h2>
+
+  <canvas id="gameCanvas" width="400" height="400"></canvas>
+
+  <div *ngIf="gameOver" class="game-over">
+    <input
+      type="text"
+      [(ngModel)]="playerName"
+      placeholder="Enter your name"
+      maxlength="10"
+    />
+    <button (click)="startGame()" [disabled]="!playerName.trim()">Restart Game</button>
+  </div>
+
+  <div class="leaderboard">
+    <h3>Leaderboard</h3>
+    <ol>
+      <li *ngFor="let entry of leaderboard">{{ entry.name }} - {{ entry.score }}</li>
+    </ol>
+  </div>
+</div>

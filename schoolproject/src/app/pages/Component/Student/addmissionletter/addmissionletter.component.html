@@ -1,0 +1,75 @@
+<div class="d-flex flex-column align-items-center">
+   <!-- Input Box -->
+   <div class="row">
+      <div class="col-md-10">
+       <input 
+         type="text" 
+         [(ngModel)]="rNo" 
+         (ngModelChange)="onSearch()" 
+          
+         placeholder="Registration Number"
+       />
+       <label alt="R no" placeholder="R no"></label>
+        
+       
+       
+      </div>
+      <div class="col-md-2 mt-3">
+       <i class="bi bi-search"></i>
+      </div>
+   </div>
+ 
+   <!-- Suggestions List -->
+   <div *ngIf="suggestions.length > 0" class="list-group suggestions-list">
+     <a *ngFor="let student of suggestions" (click)="onSelectStudent(student)" 
+        class="list-group-item list-group-item-action">  
+       {{ student.Name }} ({{ student.Rno }})
+     </a>
+   </div>
+ 
+   <!-- Profile Card -->
+   <div *ngIf="selectedStudent" class="card profile-card-3 mt-3">
+     <div class="card-header text-center">
+       <h4>ADMISSION CONFIRMATION</h4>
+     </div>
+     <div class="profile-thumb-block mt-3">
+       <img src="https://randomuser.me/api/portraits/men/78.jpg" alt="profile-image" class="profile" />
+     </div>
+     <div class="card-content">
+       <h2>{{ selectedStudent.Name }}</h2>
+       <div class="details">
+         <div class="detail-item">
+           <span class="label">Registration/ID:</span>
+           <strong class="data">{{ selectedStudent.Rno }}</strong>
+         </div>
+         <div class="detail-item">
+           <span class="label">Class:</span>
+           <strong class="data">{{ selectedStudent.Classname }}</strong>
+         </div>
+         <div class="detail-item">
+           <span class="label">Admission Date:</span>
+           <strong class="data">{{ selectedStudent.DateofAdmission | date }}</strong>
+         </div>
+         <div class="detail-item account-status">
+           <span class="label">Account Status:</span>
+           <strong class="data">{{ selectedStudent.Status }} <i class="bi bi-person-check-fill"></i></strong>
+         </div>
+         <div class="detail-item">
+           <span class="label">Username:</span>
+           <strong class="data">{{ selectedStudent.Username }}</strong>
+         </div>
+         <div class="detail-item">
+           <span class="label">Password:</span>
+           <strong class="data">{{ selectedStudent.Password }}</strong>
+         </div>
+       </div>
+       <div class="icon-block">
+         <button type="button" class="btn" (click)="printAdmissionLetter()" >
+           <i class="bi bi-printer fs-5 fc-danger"></i>
+           Print Admission Letter
+         </button>
+       </div>
+     </div>
+   </div>
+ </div>
+ 

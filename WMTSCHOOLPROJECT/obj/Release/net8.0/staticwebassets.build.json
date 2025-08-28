@@ -1,0 +1,4142 @@
+{
+  "Version": 1,
+  "Hash": "+Y8eyQknUie5oAu3nvFtJj3RFYcVApB8z7Iqsd8tD3M=",
+  "Source": "WMTSCHOOLPROJECT",
+  "BasePath": "_content/WMTSCHOOLPROJECT",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WMTSCHOOLPROJECT\\wwwroot",
+      "Source": "WMTSCHOOLPROJECT",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\3rdpartylicenses.txt",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "3rdpartylicenses#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "holzj7nl1s",
+      "Integrity": "f4guD4ff0+nrKwMZ92MRL2xcQ9kR2JA+yajj3iTcbjQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\3rdpartylicenses.txt"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Addmissionletter\\index.html",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/Addmissionletter/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ym17h9nmhq",
+      "Integrity": "9pZKj28Ir5jkg0Hfq/Rq/ZJuNbdgMWXGz6SfijLFNcM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\Addmissionletter\\index.html"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Addnew\\index.html",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/Addnew/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r3pn9ahjg0",
+      "Integrity": "179AYsnjGrp5qbudlT5BHM+kUjB67JdMPEAkXpCKWh4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\Addnew\\index.html"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Allclass\\index.html",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/Allclass/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ujoovbkdkd",
+      "Integrity": "tmLA7YtPG4ucurkU/2x3a9owc7tQ3lr46LG9s8YLiNo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\Allclass\\index.html"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Allstudent\\index.html",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/Allstudent/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "famxbiayha",
+      "Integrity": "F4L1/0VcWM5o2dsGaoBbLqkOzsDYVPx7+FEx7bHbuzI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\Allstudent\\index.html"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\AssignSubjects\\index.html",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/AssignSubjects/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c65apo46qc",
+      "Integrity": "tBGT8KTFJD0dxRqOX4Y0U7GwJe9AeG5fSvBOIe8LGJA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\AssignSubjects\\index.html"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Classeswithsubjects\\index.html",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/Classeswithsubjects/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2yz4zdblqb",
+      "Integrity": "+tVV8EPXTkhdnxNKcelZ0fFY3JW0hDUerRhtb766LGQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\Classeswithsubjects\\index.html"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\create\\index.html",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/create/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gwmeqqvjyv",
+      "Integrity": "cB05iiUN5FZOvC55ZKqc7a9yRoulE90K4UgcsUFNe5g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\create\\index.html"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Dashboard\\index.html",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/Dashboard/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cwb4wf8u45",
+      "Integrity": "xC6dICVxGrLjuPY+gsWWn5v0aKObslbverDaEAm8udY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\Dashboard\\index.html"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\DrawingBoard\\index.html",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/DrawingBoard/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1nslk76sxe",
+      "Integrity": "wwvjF1m7L0zAfnZMryNoRpXh0Q1EG8eXhboKKNkYkGM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\DrawingBoard\\index.html"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\favicon.ico",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/favicon#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vagikyz9qx",
+      "Integrity": "+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\game\\index.html",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/game/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u4g5h5s277",
+      "Integrity": "EvodSbLSeQCd7WtlxZI6//m5VWZ8ZrTjiZhU07Ig8Ak=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\game\\index.html"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\index.csr.html",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/index.csr#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "smpsh2cmiq",
+      "Integrity": "PFaazgtNt9KQvgcXKRZ4uihAuCAIWWEyd851bMxPfV4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\index.csr.html"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\index.html",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "03eva7z0ip",
+      "Integrity": "DE9WabnPxEci8meRPJwIeouXLdKyXR3tZq/6HQveoe0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\index.html"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\login\\index.html",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/login/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "asz8v9j0gy",
+      "Integrity": "1iV5+coCw9Trom3Hq4E3CjDO4u2HcGyPVrt6mEac+LI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\login\\index.html"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\loginprofile\\index.html",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/loginprofile/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kwvlne12yi",
+      "Integrity": "xJN3ZHHee992wTAOchP382r2R6xYfHsH/KabWVRlH9Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\loginprofile\\index.html"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\main-EUU5TFDF.js",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/main-EUU5TFDF#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ypiymb2ll6",
+      "Integrity": "RtX3ls2xX9Jf4Mu91QqQr8wB/HieUFDVWQ9MNJYN5fA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\main-EUU5TFDF.js"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Managelogin\\index.html",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/Managelogin/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hfap36gyih",
+      "Integrity": "88P1IZVHfgTKF8XUYf64yVVJL5jnwxvZWnzSymjSi1c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\Managelogin\\index.html"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\media\\bootstrap-icons-OCU552PF.woff",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/media/bootstrap-icons-OCU552PF#[.{fingerprint}]?.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lssqqxhxcq",
+      "Integrity": "ux3pibg5cPb05U3hzZdMXLpVtzWC2l4bIlptDt8ClIM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\media\\bootstrap-icons-OCU552PF.woff"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\media\\bootstrap-icons-X6UQXWUS.woff2",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/media/bootstrap-icons-X6UQXWUS#[.{fingerprint}]?.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xeyugjpn2t",
+      "Integrity": "R2rfQrQDJQmPz6izarPnaRhrtPbOaiSXU+LhqcIr+Z4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\media\\bootstrap-icons-X6UQXWUS.woff2"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\media\\Schoolimg-ZFWY2ZSF.png",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/media/Schoolimg-ZFWY2ZSF#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c0tgdpfxe2",
+      "Integrity": "3FchpKHg9k4UzCxaU3t93mDrkLLoYhov6cBOHjYr9+Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\media\\Schoolimg-ZFWY2ZSF.png"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\newclass\\index.html",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/newclass/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jjpulcvk0u",
+      "Integrity": "MU6oP/8yOiTICHVsXMWbsF6XwSxTEjJxTMYMB5qsk3M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\newclass\\index.html"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\polyfills-FFHMD2TL.js",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/polyfills-FFHMD2TL#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "39tegmrjtp",
+      "Integrity": "adzqBFZD3Q3pmKPNDMu7RrRr/yZRqHpWxzwo6yCOj5g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\polyfills-FFHMD2TL.js"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Printbasiclist\\index.html",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/Printbasiclist/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xa8aq7qyrq",
+      "Integrity": "iT67nkGazBYTdcXPPT8/sR+jRuVDVwXk1xrFZI3oq2M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\Printbasiclist\\index.html"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\profilesetting\\index.html",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/profilesetting/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "epignbjlz5",
+      "Integrity": "srXec2ktE0IufS7ut7RPtGS5ObT4SsAaTEd3yTXYc3Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\profilesetting\\index.html"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Promotestudent\\index.html",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/Promotestudent/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wwhs4ygm28",
+      "Integrity": "sBWRva7jMR8l1M8+XMNDIlLz6PqpAL2GQxx9WVK/20A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\Promotestudent\\index.html"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Quiz\\index.html",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/Quiz/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gf03hefz7i",
+      "Integrity": "FIJhqAJo1u3AvaC4GbAqw2mrvjh7L1eGG5E1JoNPNxs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\Quiz\\index.html"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\scripts-GKTV6UCE.js",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/scripts-GKTV6UCE#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w77pluenh6",
+      "Integrity": "NAIRmkcBiC3Tc3PXFQUB1yXoDiBX8YWDd2tJZXf6M8I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\scripts-GKTV6UCE.js"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\StudentIDcards\\index.html",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/StudentIDcards/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x8cm3x9t50",
+      "Integrity": "gb5l5nEttFYnLmTlyRsCKsEs6DgQq+1iVtv5SVal8gM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\StudentIDcards\\index.html"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\styles-72AO6R5O.css",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "browser/styles-72AO6R5O#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rbu2di0eh0",
+      "Integrity": "BztnpteKhFYzoBDdF5Q/fqHud/6b2Rc7VyVoaA1x7Jk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\browser\\styles-72AO6R5O.css"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\prerendered-routes.json",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "prerendered-routes#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ym429m4vxm",
+      "Integrity": "BrteoJ4wgIr1kBZtDj6Danr36u0D8iwoLKUU1XSQOc0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\prerendered-routes.json"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\chunk-5XUXGTUW.mjs",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "server/chunk-5XUXGTUW#[.{fingerprint}]?.mjs",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gr7szd01zu",
+      "Integrity": "tFL3Pb9JIsbsT9YIrizaUwF0g3ASziufoTb4NNYG0sI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\server\\chunk-5XUXGTUW.mjs"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\chunk-HYEPMERM.mjs",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "server/chunk-HYEPMERM#[.{fingerprint}]?.mjs",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4suse06nua",
+      "Integrity": "LIfc8Qk0gMXVmQIM9+gTu0LL0s+hE4Q6KQtad2L9FEM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\server\\chunk-HYEPMERM.mjs"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\chunk-K5SDVLCX.mjs",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "server/chunk-K5SDVLCX#[.{fingerprint}]?.mjs",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "89imawij8m",
+      "Integrity": "7K9C/Xg9J8Jn7kDEVj4Apn0gYOe7wak/zERN7ohnfPg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\server\\chunk-K5SDVLCX.mjs"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\chunk-VCVCHJZV.mjs",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "server/chunk-VCVCHJZV#[.{fingerprint}]?.mjs",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nn6s8eon01",
+      "Integrity": "Ta8UXRM5DUnDqe2fjcuxzMgSwakKBmPbZvwtF468IaI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\server\\chunk-VCVCHJZV.mjs"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\index.server.html",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "server/index.server#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "109r8m59ef",
+      "Integrity": "r+n/IfEccRfJjsxGsT8cMa6vxj3i8r7oaMsv4N2zeYM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\server\\index.server.html"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\main.server.mjs",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "server/main.server#[.{fingerprint}]?.mjs",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3clxoi79q3",
+      "Integrity": "vcWh+Xch7kz1R6NHfX8NN7sQQYpIXev8UWx3bXFTXEM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\server\\main.server.mjs"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\polyfills.server.mjs",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "server/polyfills.server#[.{fingerprint}]?.mjs",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xoeghw2zg7",
+      "Integrity": "n0DvcRBUP8jsZJXak5oBsFXS8zXluYwrH+HT5Zpfgcs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\server\\polyfills.server.mjs"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\render-utils.server.mjs",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "server/render-utils.server#[.{fingerprint}]?.mjs",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qm4yw7lgpa",
+      "Integrity": "Dshnaz99WdW9FUDaxBikWieUIhxyVipLIPWQexqF998=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\server\\render-utils.server.mjs"
+    },
+    {
+      "Identity": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\server.mjs",
+      "SourceId": "WMTSCHOOLPROJECT",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\",
+      "BasePath": "_content/WMTSCHOOLPROJECT",
+      "RelativePath": "server/server#[.{fingerprint}]?.mjs",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8gvrhp2dxp",
+      "Integrity": "+OydIfnYcIM5GUXvzBXzS+MP2SaKC2R1XvCAoVirQwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\server\\server.mjs"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "3rdpartylicenses.holzj7nl1s.txt",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\3rdpartylicenses.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "140147"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f4guD4ff0+nrKwMZ92MRL2xcQ9kR2JA+yajj3iTcbjQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "holzj7nl1s"
+        },
+        {
+          "Name": "label",
+          "Value": "3rdpartylicenses.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-f4guD4ff0+nrKwMZ92MRL2xcQ9kR2JA+yajj3iTcbjQ="
+        }
+      ]
+    },
+    {
+      "Route": "3rdpartylicenses.txt",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\3rdpartylicenses.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "140147"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f4guD4ff0+nrKwMZ92MRL2xcQ9kR2JA+yajj3iTcbjQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-f4guD4ff0+nrKwMZ92MRL2xcQ9kR2JA+yajj3iTcbjQ="
+        }
+      ]
+    },
+    {
+      "Route": "browser/Addmissionletter/index.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Addmissionletter\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33752"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9pZKj28Ir5jkg0Hfq/Rq/ZJuNbdgMWXGz6SfijLFNcM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9pZKj28Ir5jkg0Hfq/Rq/ZJuNbdgMWXGz6SfijLFNcM="
+        }
+      ]
+    },
+    {
+      "Route": "browser/Addmissionletter/index.ym17h9nmhq.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Addmissionletter\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33752"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9pZKj28Ir5jkg0Hfq/Rq/ZJuNbdgMWXGz6SfijLFNcM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ym17h9nmhq"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/Addmissionletter/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9pZKj28Ir5jkg0Hfq/Rq/ZJuNbdgMWXGz6SfijLFNcM="
+        }
+      ]
+    },
+    {
+      "Route": "browser/Addnew/index.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Addnew\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47061"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"179AYsnjGrp5qbudlT5BHM+kUjB67JdMPEAkXpCKWh4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-179AYsnjGrp5qbudlT5BHM+kUjB67JdMPEAkXpCKWh4="
+        }
+      ]
+    },
+    {
+      "Route": "browser/Addnew/index.r3pn9ahjg0.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Addnew\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47061"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"179AYsnjGrp5qbudlT5BHM+kUjB67JdMPEAkXpCKWh4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r3pn9ahjg0"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/Addnew/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-179AYsnjGrp5qbudlT5BHM+kUjB67JdMPEAkXpCKWh4="
+        }
+      ]
+    },
+    {
+      "Route": "browser/Allclass/index.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Allclass\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35191"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tmLA7YtPG4ucurkU/2x3a9owc7tQ3lr46LG9s8YLiNo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tmLA7YtPG4ucurkU/2x3a9owc7tQ3lr46LG9s8YLiNo="
+        }
+      ]
+    },
+    {
+      "Route": "browser/Allclass/index.ujoovbkdkd.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Allclass\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35191"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tmLA7YtPG4ucurkU/2x3a9owc7tQ3lr46LG9s8YLiNo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ujoovbkdkd"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/Allclass/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tmLA7YtPG4ucurkU/2x3a9owc7tQ3lr46LG9s8YLiNo="
+        }
+      ]
+    },
+    {
+      "Route": "browser/Allstudent/index.famxbiayha.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Allstudent\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40170"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F4L1/0VcWM5o2dsGaoBbLqkOzsDYVPx7+FEx7bHbuzI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "famxbiayha"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/Allstudent/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F4L1/0VcWM5o2dsGaoBbLqkOzsDYVPx7+FEx7bHbuzI="
+        }
+      ]
+    },
+    {
+      "Route": "browser/Allstudent/index.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Allstudent\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40170"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F4L1/0VcWM5o2dsGaoBbLqkOzsDYVPx7+FEx7bHbuzI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F4L1/0VcWM5o2dsGaoBbLqkOzsDYVPx7+FEx7bHbuzI="
+        }
+      ]
+    },
+    {
+      "Route": "browser/AssignSubjects/index.c65apo46qc.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\AssignSubjects\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tBGT8KTFJD0dxRqOX4Y0U7GwJe9AeG5fSvBOIe8LGJA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c65apo46qc"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/AssignSubjects/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tBGT8KTFJD0dxRqOX4Y0U7GwJe9AeG5fSvBOIe8LGJA="
+        }
+      ]
+    },
+    {
+      "Route": "browser/AssignSubjects/index.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\AssignSubjects\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39130"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tBGT8KTFJD0dxRqOX4Y0U7GwJe9AeG5fSvBOIe8LGJA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tBGT8KTFJD0dxRqOX4Y0U7GwJe9AeG5fSvBOIe8LGJA="
+        }
+      ]
+    },
+    {
+      "Route": "browser/Classeswithsubjects/index.2yz4zdblqb.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Classeswithsubjects\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+tVV8EPXTkhdnxNKcelZ0fFY3JW0hDUerRhtb766LGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2yz4zdblqb"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/Classeswithsubjects/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+tVV8EPXTkhdnxNKcelZ0fFY3JW0hDUerRhtb766LGQ="
+        }
+      ]
+    },
+    {
+      "Route": "browser/Classeswithsubjects/index.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Classeswithsubjects\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29311"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+tVV8EPXTkhdnxNKcelZ0fFY3JW0hDUerRhtb766LGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+tVV8EPXTkhdnxNKcelZ0fFY3JW0hDUerRhtb766LGQ="
+        }
+      ]
+    },
+    {
+      "Route": "browser/create/index.gwmeqqvjyv.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\create\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12690"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cB05iiUN5FZOvC55ZKqc7a9yRoulE90K4UgcsUFNe5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gwmeqqvjyv"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/create/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cB05iiUN5FZOvC55ZKqc7a9yRoulE90K4UgcsUFNe5g="
+        }
+      ]
+    },
+    {
+      "Route": "browser/create/index.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\create\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12690"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cB05iiUN5FZOvC55ZKqc7a9yRoulE90K4UgcsUFNe5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cB05iiUN5FZOvC55ZKqc7a9yRoulE90K4UgcsUFNe5g="
+        }
+      ]
+    },
+    {
+      "Route": "browser/Dashboard/index.cwb4wf8u45.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Dashboard\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15457"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xC6dICVxGrLjuPY+gsWWn5v0aKObslbverDaEAm8udY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cwb4wf8u45"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/Dashboard/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xC6dICVxGrLjuPY+gsWWn5v0aKObslbverDaEAm8udY="
+        }
+      ]
+    },
+    {
+      "Route": "browser/Dashboard/index.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Dashboard\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15457"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xC6dICVxGrLjuPY+gsWWn5v0aKObslbverDaEAm8udY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xC6dICVxGrLjuPY+gsWWn5v0aKObslbverDaEAm8udY="
+        }
+      ]
+    },
+    {
+      "Route": "browser/DrawingBoard/index.1nslk76sxe.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\DrawingBoard\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10683"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wwvjF1m7L0zAfnZMryNoRpXh0Q1EG8eXhboKKNkYkGM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1nslk76sxe"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/DrawingBoard/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wwvjF1m7L0zAfnZMryNoRpXh0Q1EG8eXhboKKNkYkGM="
+        }
+      ]
+    },
+    {
+      "Route": "browser/DrawingBoard/index.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\DrawingBoard\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10683"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wwvjF1m7L0zAfnZMryNoRpXh0Q1EG8eXhboKKNkYkGM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wwvjF1m7L0zAfnZMryNoRpXh0Q1EG8eXhboKKNkYkGM="
+        }
+      ]
+    },
+    {
+      "Route": "browser/favicon.ico",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15086"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 06:14:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8="
+        }
+      ]
+    },
+    {
+      "Route": "browser/favicon.vagikyz9qx.ico",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15086"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 06:14:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vagikyz9qx"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+RAr6AKXwFKSB2B75Sd7T5C8qJ1lmI+hdxuRx4lOgV8="
+        }
+      ]
+    },
+    {
+      "Route": "browser/game/index.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\game\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10879"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EvodSbLSeQCd7WtlxZI6//m5VWZ8ZrTjiZhU07Ig8Ak=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EvodSbLSeQCd7WtlxZI6//m5VWZ8ZrTjiZhU07Ig8Ak="
+        }
+      ]
+    },
+    {
+      "Route": "browser/game/index.u4g5h5s277.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\game\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10879"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EvodSbLSeQCd7WtlxZI6//m5VWZ8ZrTjiZhU07Ig8Ak=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u4g5h5s277"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/game/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EvodSbLSeQCd7WtlxZI6//m5VWZ8ZrTjiZhU07Ig8Ak="
+        }
+      ]
+    },
+    {
+      "Route": "browser/index.03eva7z0ip.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21847"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DE9WabnPxEci8meRPJwIeouXLdKyXR3tZq/6HQveoe0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "03eva7z0ip"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DE9WabnPxEci8meRPJwIeouXLdKyXR3tZq/6HQveoe0="
+        }
+      ]
+    },
+    {
+      "Route": "browser/index.csr.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\index.csr.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5354"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PFaazgtNt9KQvgcXKRZ4uihAuCAIWWEyd851bMxPfV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PFaazgtNt9KQvgcXKRZ4uihAuCAIWWEyd851bMxPfV4="
+        }
+      ]
+    },
+    {
+      "Route": "browser/index.csr.smpsh2cmiq.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\index.csr.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5354"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PFaazgtNt9KQvgcXKRZ4uihAuCAIWWEyd851bMxPfV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "smpsh2cmiq"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/index.csr.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PFaazgtNt9KQvgcXKRZ4uihAuCAIWWEyd851bMxPfV4="
+        }
+      ]
+    },
+    {
+      "Route": "browser/index.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21847"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DE9WabnPxEci8meRPJwIeouXLdKyXR3tZq/6HQveoe0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DE9WabnPxEci8meRPJwIeouXLdKyXR3tZq/6HQveoe0="
+        }
+      ]
+    },
+    {
+      "Route": "browser/login/index.asz8v9j0gy.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\login\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15454"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1iV5+coCw9Trom3Hq4E3CjDO4u2HcGyPVrt6mEac+LI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "asz8v9j0gy"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/login/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1iV5+coCw9Trom3Hq4E3CjDO4u2HcGyPVrt6mEac+LI="
+        }
+      ]
+    },
+    {
+      "Route": "browser/login/index.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\login\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15454"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1iV5+coCw9Trom3Hq4E3CjDO4u2HcGyPVrt6mEac+LI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1iV5+coCw9Trom3Hq4E3CjDO4u2HcGyPVrt6mEac+LI="
+        }
+      ]
+    },
+    {
+      "Route": "browser/loginprofile/index.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\loginprofile\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47913"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xJN3ZHHee992wTAOchP382r2R6xYfHsH/KabWVRlH9Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xJN3ZHHee992wTAOchP382r2R6xYfHsH/KabWVRlH9Y="
+        }
+      ]
+    },
+    {
+      "Route": "browser/loginprofile/index.kwvlne12yi.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\loginprofile\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47913"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xJN3ZHHee992wTAOchP382r2R6xYfHsH/KabWVRlH9Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kwvlne12yi"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/loginprofile/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xJN3ZHHee992wTAOchP382r2R6xYfHsH/KabWVRlH9Y="
+        }
+      ]
+    },
+    {
+      "Route": "browser/main-EUU5TFDF.js",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\main-EUU5TFDF.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "838274"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RtX3ls2xX9Jf4Mu91QqQr8wB/HieUFDVWQ9MNJYN5fA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RtX3ls2xX9Jf4Mu91QqQr8wB/HieUFDVWQ9MNJYN5fA="
+        }
+      ]
+    },
+    {
+      "Route": "browser/main-EUU5TFDF.ypiymb2ll6.js",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\main-EUU5TFDF.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "838274"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RtX3ls2xX9Jf4Mu91QqQr8wB/HieUFDVWQ9MNJYN5fA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ypiymb2ll6"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/main-EUU5TFDF.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RtX3ls2xX9Jf4Mu91QqQr8wB/HieUFDVWQ9MNJYN5fA="
+        }
+      ]
+    },
+    {
+      "Route": "browser/Managelogin/index.hfap36gyih.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Managelogin\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28749"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"88P1IZVHfgTKF8XUYf64yVVJL5jnwxvZWnzSymjSi1c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hfap36gyih"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/Managelogin/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-88P1IZVHfgTKF8XUYf64yVVJL5jnwxvZWnzSymjSi1c="
+        }
+      ]
+    },
+    {
+      "Route": "browser/Managelogin/index.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Managelogin\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28749"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"88P1IZVHfgTKF8XUYf64yVVJL5jnwxvZWnzSymjSi1c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-88P1IZVHfgTKF8XUYf64yVVJL5jnwxvZWnzSymjSi1c="
+        }
+      ]
+    },
+    {
+      "Route": "browser/media/bootstrap-icons-OCU552PF.lssqqxhxcq.woff",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\media\\bootstrap-icons-OCU552PF.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "176032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ux3pibg5cPb05U3hzZdMXLpVtzWC2l4bIlptDt8ClIM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lssqqxhxcq"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/media/bootstrap-icons-OCU552PF.woff"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ux3pibg5cPb05U3hzZdMXLpVtzWC2l4bIlptDt8ClIM="
+        }
+      ]
+    },
+    {
+      "Route": "browser/media/bootstrap-icons-OCU552PF.woff",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\media\\bootstrap-icons-OCU552PF.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "176032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ux3pibg5cPb05U3hzZdMXLpVtzWC2l4bIlptDt8ClIM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ux3pibg5cPb05U3hzZdMXLpVtzWC2l4bIlptDt8ClIM="
+        }
+      ]
+    },
+    {
+      "Route": "browser/media/bootstrap-icons-X6UQXWUS.woff2",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\media\\bootstrap-icons-X6UQXWUS.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130396"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R2rfQrQDJQmPz6izarPnaRhrtPbOaiSXU+LhqcIr+Z4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R2rfQrQDJQmPz6izarPnaRhrtPbOaiSXU+LhqcIr+Z4="
+        }
+      ]
+    },
+    {
+      "Route": "browser/media/bootstrap-icons-X6UQXWUS.xeyugjpn2t.woff2",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\media\\bootstrap-icons-X6UQXWUS.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130396"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R2rfQrQDJQmPz6izarPnaRhrtPbOaiSXU+LhqcIr+Z4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xeyugjpn2t"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/media/bootstrap-icons-X6UQXWUS.woff2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R2rfQrQDJQmPz6izarPnaRhrtPbOaiSXU+LhqcIr+Z4="
+        }
+      ]
+    },
+    {
+      "Route": "browser/media/Schoolimg-ZFWY2ZSF.c0tgdpfxe2.png",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\media\\Schoolimg-ZFWY2ZSF.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "171422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3FchpKHg9k4UzCxaU3t93mDrkLLoYhov6cBOHjYr9+Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c0tgdpfxe2"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/media/Schoolimg-ZFWY2ZSF.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3FchpKHg9k4UzCxaU3t93mDrkLLoYhov6cBOHjYr9+Y="
+        }
+      ]
+    },
+    {
+      "Route": "browser/media/Schoolimg-ZFWY2ZSF.png",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\media\\Schoolimg-ZFWY2ZSF.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "171422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3FchpKHg9k4UzCxaU3t93mDrkLLoYhov6cBOHjYr9+Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3FchpKHg9k4UzCxaU3t93mDrkLLoYhov6cBOHjYr9+Y="
+        }
+      ]
+    },
+    {
+      "Route": "browser/newclass/index.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\newclass\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38162"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MU6oP/8yOiTICHVsXMWbsF6XwSxTEjJxTMYMB5qsk3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MU6oP/8yOiTICHVsXMWbsF6XwSxTEjJxTMYMB5qsk3M="
+        }
+      ]
+    },
+    {
+      "Route": "browser/newclass/index.jjpulcvk0u.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\newclass\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38162"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MU6oP/8yOiTICHVsXMWbsF6XwSxTEjJxTMYMB5qsk3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jjpulcvk0u"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/newclass/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MU6oP/8yOiTICHVsXMWbsF6XwSxTEjJxTMYMB5qsk3M="
+        }
+      ]
+    },
+    {
+      "Route": "browser/polyfills-FFHMD2TL.39tegmrjtp.js",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\polyfills-FFHMD2TL.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34519"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"adzqBFZD3Q3pmKPNDMu7RrRr/yZRqHpWxzwo6yCOj5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "39tegmrjtp"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/polyfills-FFHMD2TL.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-adzqBFZD3Q3pmKPNDMu7RrRr/yZRqHpWxzwo6yCOj5g="
+        }
+      ]
+    },
+    {
+      "Route": "browser/polyfills-FFHMD2TL.js",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\polyfills-FFHMD2TL.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34519"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"adzqBFZD3Q3pmKPNDMu7RrRr/yZRqHpWxzwo6yCOj5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-adzqBFZD3Q3pmKPNDMu7RrRr/yZRqHpWxzwo6yCOj5g="
+        }
+      ]
+    },
+    {
+      "Route": "browser/Printbasiclist/index.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Printbasiclist\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iT67nkGazBYTdcXPPT8/sR+jRuVDVwXk1xrFZI3oq2M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iT67nkGazBYTdcXPPT8/sR+jRuVDVwXk1xrFZI3oq2M="
+        }
+      ]
+    },
+    {
+      "Route": "browser/Printbasiclist/index.xa8aq7qyrq.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Printbasiclist\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iT67nkGazBYTdcXPPT8/sR+jRuVDVwXk1xrFZI3oq2M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xa8aq7qyrq"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/Printbasiclist/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iT67nkGazBYTdcXPPT8/sR+jRuVDVwXk1xrFZI3oq2M="
+        }
+      ]
+    },
+    {
+      "Route": "browser/profilesetting/index.epignbjlz5.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\profilesetting\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42507"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"srXec2ktE0IufS7ut7RPtGS5ObT4SsAaTEd3yTXYc3Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "epignbjlz5"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/profilesetting/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-srXec2ktE0IufS7ut7RPtGS5ObT4SsAaTEd3yTXYc3Y="
+        }
+      ]
+    },
+    {
+      "Route": "browser/profilesetting/index.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\profilesetting\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42507"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"srXec2ktE0IufS7ut7RPtGS5ObT4SsAaTEd3yTXYc3Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-srXec2ktE0IufS7ut7RPtGS5ObT4SsAaTEd3yTXYc3Y="
+        }
+      ]
+    },
+    {
+      "Route": "browser/Promotestudent/index.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Promotestudent\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sBWRva7jMR8l1M8+XMNDIlLz6PqpAL2GQxx9WVK/20A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sBWRva7jMR8l1M8+XMNDIlLz6PqpAL2GQxx9WVK/20A="
+        }
+      ]
+    },
+    {
+      "Route": "browser/Promotestudent/index.wwhs4ygm28.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Promotestudent\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sBWRva7jMR8l1M8+XMNDIlLz6PqpAL2GQxx9WVK/20A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wwhs4ygm28"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/Promotestudent/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sBWRva7jMR8l1M8+XMNDIlLz6PqpAL2GQxx9WVK/20A="
+        }
+      ]
+    },
+    {
+      "Route": "browser/Quiz/index.gf03hefz7i.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Quiz\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10245"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIJhqAJo1u3AvaC4GbAqw2mrvjh7L1eGG5E1JoNPNxs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gf03hefz7i"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/Quiz/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIJhqAJo1u3AvaC4GbAqw2mrvjh7L1eGG5E1JoNPNxs="
+        }
+      ]
+    },
+    {
+      "Route": "browser/Quiz/index.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\Quiz\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10245"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FIJhqAJo1u3AvaC4GbAqw2mrvjh7L1eGG5E1JoNPNxs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FIJhqAJo1u3AvaC4GbAqw2mrvjh7L1eGG5E1JoNPNxs="
+        }
+      ]
+    },
+    {
+      "Route": "browser/scripts-GKTV6UCE.js",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\scripts-GKTV6UCE.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "140974"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NAIRmkcBiC3Tc3PXFQUB1yXoDiBX8YWDd2tJZXf6M8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NAIRmkcBiC3Tc3PXFQUB1yXoDiBX8YWDd2tJZXf6M8I="
+        }
+      ]
+    },
+    {
+      "Route": "browser/scripts-GKTV6UCE.w77pluenh6.js",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\scripts-GKTV6UCE.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "140974"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NAIRmkcBiC3Tc3PXFQUB1yXoDiBX8YWDd2tJZXf6M8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w77pluenh6"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/scripts-GKTV6UCE.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NAIRmkcBiC3Tc3PXFQUB1yXoDiBX8YWDd2tJZXf6M8I="
+        }
+      ]
+    },
+    {
+      "Route": "browser/StudentIDcards/index.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\StudentIDcards\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28761"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gb5l5nEttFYnLmTlyRsCKsEs6DgQq+1iVtv5SVal8gM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gb5l5nEttFYnLmTlyRsCKsEs6DgQq+1iVtv5SVal8gM="
+        }
+      ]
+    },
+    {
+      "Route": "browser/StudentIDcards/index.x8cm3x9t50.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\StudentIDcards\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28761"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gb5l5nEttFYnLmTlyRsCKsEs6DgQq+1iVtv5SVal8gM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x8cm3x9t50"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/StudentIDcards/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gb5l5nEttFYnLmTlyRsCKsEs6DgQq+1iVtv5SVal8gM="
+        }
+      ]
+    },
+    {
+      "Route": "browser/styles-72AO6R5O.css",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\styles-72AO6R5O.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "322788"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BztnpteKhFYzoBDdF5Q/fqHud/6b2Rc7VyVoaA1x7Jk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BztnpteKhFYzoBDdF5Q/fqHud/6b2Rc7VyVoaA1x7Jk="
+        }
+      ]
+    },
+    {
+      "Route": "browser/styles-72AO6R5O.rbu2di0eh0.css",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\browser\\styles-72AO6R5O.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "322788"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BztnpteKhFYzoBDdF5Q/fqHud/6b2Rc7VyVoaA1x7Jk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rbu2di0eh0"
+        },
+        {
+          "Name": "label",
+          "Value": "browser/styles-72AO6R5O.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BztnpteKhFYzoBDdF5Q/fqHud/6b2Rc7VyVoaA1x7Jk="
+        }
+      ]
+    },
+    {
+      "Route": "prerendered-routes.json",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\prerendered-routes.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "400"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BrteoJ4wgIr1kBZtDj6Danr36u0D8iwoLKUU1XSQOc0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BrteoJ4wgIr1kBZtDj6Danr36u0D8iwoLKUU1XSQOc0="
+        }
+      ]
+    },
+    {
+      "Route": "prerendered-routes.ym429m4vxm.json",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\prerendered-routes.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "400"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BrteoJ4wgIr1kBZtDj6Danr36u0D8iwoLKUU1XSQOc0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ym429m4vxm"
+        },
+        {
+          "Name": "label",
+          "Value": "prerendered-routes.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BrteoJ4wgIr1kBZtDj6Danr36u0D8iwoLKUU1XSQOc0="
+        }
+      ]
+    },
+    {
+      "Route": "server/chunk-5XUXGTUW.gr7szd01zu.mjs",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\chunk-5XUXGTUW.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tFL3Pb9JIsbsT9YIrizaUwF0g3ASziufoTb4NNYG0sI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gr7szd01zu"
+        },
+        {
+          "Name": "label",
+          "Value": "server/chunk-5XUXGTUW.mjs"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tFL3Pb9JIsbsT9YIrizaUwF0g3ASziufoTb4NNYG0sI="
+        }
+      ]
+    },
+    {
+      "Route": "server/chunk-5XUXGTUW.mjs",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\chunk-5XUXGTUW.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2547"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tFL3Pb9JIsbsT9YIrizaUwF0g3ASziufoTb4NNYG0sI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tFL3Pb9JIsbsT9YIrizaUwF0g3ASziufoTb4NNYG0sI="
+        }
+      ]
+    },
+    {
+      "Route": "server/chunk-HYEPMERM.4suse06nua.mjs",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\chunk-HYEPMERM.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "500346"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LIfc8Qk0gMXVmQIM9+gTu0LL0s+hE4Q6KQtad2L9FEM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4suse06nua"
+        },
+        {
+          "Name": "label",
+          "Value": "server/chunk-HYEPMERM.mjs"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LIfc8Qk0gMXVmQIM9+gTu0LL0s+hE4Q6KQtad2L9FEM="
+        }
+      ]
+    },
+    {
+      "Route": "server/chunk-HYEPMERM.mjs",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\chunk-HYEPMERM.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "500346"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LIfc8Qk0gMXVmQIM9+gTu0LL0s+hE4Q6KQtad2L9FEM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LIfc8Qk0gMXVmQIM9+gTu0LL0s+hE4Q6KQtad2L9FEM="
+        }
+      ]
+    },
+    {
+      "Route": "server/chunk-K5SDVLCX.89imawij8m.mjs",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\chunk-K5SDVLCX.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "602457"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7K9C/Xg9J8Jn7kDEVj4Apn0gYOe7wak/zERN7ohnfPg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "89imawij8m"
+        },
+        {
+          "Name": "label",
+          "Value": "server/chunk-K5SDVLCX.mjs"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7K9C/Xg9J8Jn7kDEVj4Apn0gYOe7wak/zERN7ohnfPg="
+        }
+      ]
+    },
+    {
+      "Route": "server/chunk-K5SDVLCX.mjs",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\chunk-K5SDVLCX.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "602457"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7K9C/Xg9J8Jn7kDEVj4Apn0gYOe7wak/zERN7ohnfPg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7K9C/Xg9J8Jn7kDEVj4Apn0gYOe7wak/zERN7ohnfPg="
+        }
+      ]
+    },
+    {
+      "Route": "server/chunk-VCVCHJZV.mjs",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\chunk-VCVCHJZV.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12071"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ta8UXRM5DUnDqe2fjcuxzMgSwakKBmPbZvwtF468IaI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ta8UXRM5DUnDqe2fjcuxzMgSwakKBmPbZvwtF468IaI="
+        }
+      ]
+    },
+    {
+      "Route": "server/chunk-VCVCHJZV.nn6s8eon01.mjs",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\chunk-VCVCHJZV.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12071"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ta8UXRM5DUnDqe2fjcuxzMgSwakKBmPbZvwtF468IaI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nn6s8eon01"
+        },
+        {
+          "Name": "label",
+          "Value": "server/chunk-VCVCHJZV.mjs"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ta8UXRM5DUnDqe2fjcuxzMgSwakKBmPbZvwtF468IaI="
+        }
+      ]
+    },
+    {
+      "Route": "server/index.server.109r8m59ef.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\index.server.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1267"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r+n/IfEccRfJjsxGsT8cMa6vxj3i8r7oaMsv4N2zeYM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "109r8m59ef"
+        },
+        {
+          "Name": "label",
+          "Value": "server/index.server.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-r+n/IfEccRfJjsxGsT8cMa6vxj3i8r7oaMsv4N2zeYM="
+        }
+      ]
+    },
+    {
+      "Route": "server/index.server.html",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\index.server.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1267"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"r+n/IfEccRfJjsxGsT8cMa6vxj3i8r7oaMsv4N2zeYM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-r+n/IfEccRfJjsxGsT8cMa6vxj3i8r7oaMsv4N2zeYM="
+        }
+      ]
+    },
+    {
+      "Route": "server/main.server.3clxoi79q3.mjs",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\main.server.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "149"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vcWh+Xch7kz1R6NHfX8NN7sQQYpIXev8UWx3bXFTXEM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3clxoi79q3"
+        },
+        {
+          "Name": "label",
+          "Value": "server/main.server.mjs"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vcWh+Xch7kz1R6NHfX8NN7sQQYpIXev8UWx3bXFTXEM="
+        }
+      ]
+    },
+    {
+      "Route": "server/main.server.mjs",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\main.server.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "149"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vcWh+Xch7kz1R6NHfX8NN7sQQYpIXev8UWx3bXFTXEM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vcWh+Xch7kz1R6NHfX8NN7sQQYpIXev8UWx3bXFTXEM="
+        }
+      ]
+    },
+    {
+      "Route": "server/polyfills.server.mjs",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\polyfills.server.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "268600"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n0DvcRBUP8jsZJXak5oBsFXS8zXluYwrH+HT5Zpfgcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-n0DvcRBUP8jsZJXak5oBsFXS8zXluYwrH+HT5Zpfgcs="
+        }
+      ]
+    },
+    {
+      "Route": "server/polyfills.server.xoeghw2zg7.mjs",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\polyfills.server.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "268600"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n0DvcRBUP8jsZJXak5oBsFXS8zXluYwrH+HT5Zpfgcs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xoeghw2zg7"
+        },
+        {
+          "Name": "label",
+          "Value": "server/polyfills.server.mjs"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-n0DvcRBUP8jsZJXak5oBsFXS8zXluYwrH+HT5Zpfgcs="
+        }
+      ]
+    },
+    {
+      "Route": "server/render-utils.server.mjs",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\render-utils.server.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1471"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dshnaz99WdW9FUDaxBikWieUIhxyVipLIPWQexqF998=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dshnaz99WdW9FUDaxBikWieUIhxyVipLIPWQexqF998="
+        }
+      ]
+    },
+    {
+      "Route": "server/render-utils.server.qm4yw7lgpa.mjs",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\render-utils.server.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1471"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dshnaz99WdW9FUDaxBikWieUIhxyVipLIPWQexqF998=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qm4yw7lgpa"
+        },
+        {
+          "Name": "label",
+          "Value": "server/render-utils.server.mjs"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dshnaz99WdW9FUDaxBikWieUIhxyVipLIPWQexqF998="
+        }
+      ]
+    },
+    {
+      "Route": "server/server.8gvrhp2dxp.mjs",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\server.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1110596"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+OydIfnYcIM5GUXvzBXzS+MP2SaKC2R1XvCAoVirQwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8gvrhp2dxp"
+        },
+        {
+          "Name": "label",
+          "Value": "server/server.mjs"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+OydIfnYcIM5GUXvzBXzS+MP2SaKC2R1XvCAoVirQwg="
+        }
+      ]
+    },
+    {
+      "Route": "server/server.mjs",
+      "AssetFile": "D:\\school\\WORKING\\WMTSchool\\WMTschoolCoreApi\\WMTSCHOOLPROJECT\\wwwroot\\server\\server.mjs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1110596"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+OydIfnYcIM5GUXvzBXzS+MP2SaKC2R1XvCAoVirQwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Jun 2025 06:44:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+OydIfnYcIM5GUXvzBXzS+MP2SaKC2R1XvCAoVirQwg="
+        }
+      ]
+    }
+  ]
+}
